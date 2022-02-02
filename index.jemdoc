@@ -1,0 +1,31 @@
+# jemdoc: menu{MENU}{index.html}, addcss{ali.css}
+= Ali Siahkoohi
+
+{{<div><img src="files/ali-siahkoohi.jpg" alt="Ali Siahkoohi" style="float:left" hspace="10" width="200"></div> }}
+
+\n
+PhD Candidate\n
+School of Computational Science and Engineering\n
+Georgia Institute of Technology\n\n
+[./files/AliSiahkoohi-CV.pdf CV]\n
+[https://github.com/alisiahkoohi GitHub]\n
+[https://scholar.google.com/citations?user=sxRMqYIAAAAJ&hl=en Google Scholar]\n
+Email: [mailto:alisk@gatech.edu alisk@gatech.edu]
+
+\n\n
+
+I am a doctoral candidate in Computational Science and Engineering at
+[https://cse.gatech.edu/ Georgia Tech] under the supervision of
+[https://cse.gatech.edu/people/felix-herrmann Felix Herrmann].
+
+
+My multidisciplinary research revolves around developing generative-model-based
+methods to solve a variety of scientific computing problems in the fields of
+inverse problems, uncertainty quantification, and signal processing.
+
+~~~
+
+{{<p style="text-align:center;"><b>I will join Rice University's department of
+Computational & Applied Mathematics to work with Maarten de Hoop and Richard
+Baraniuk as a Simons Postdoctoral Fellow in Fall 2022.</b></p>}}
+~~~
