@@ -37,7 +37,7 @@
 	  margin: 0;
 	padding-top: 1em;
 	padding-bottom: 14px;
-	  font-size: 14px;
+	  font-size: 16px;
 	  max-width: 600px;
 	line-height:1.4;
 	color: var(--content-text);
@@ -50,7 +50,7 @@
 	  padding-top: 2.5em;
 	  padding-left: 21px;
 	  padding-right: 28px;
-	  font-size: 16px;
+	  font-size: 18px;
 	  width: auto;
 	  white-space: nowrap;
 	  text-align: left;
@@ -181,7 +181,7 @@
 	  margin-bottom: 0.8em;
 	  padding: 0;
 	  line-height: 1.4;
-	  width: 650px
+	  width: 750px
   }
 
   pre {
@@ -190,7 +190,7 @@
   }
 
   div#footer {
-	  font-size: small;
+	  font-size: 15.5px;
 	  border-top: 1px solid #c0c0c0;
 	  padding-top: 0.1em;
 	  margin-top: 4.0em;
