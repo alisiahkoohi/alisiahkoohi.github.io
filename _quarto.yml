@@ -1,0 +1,39 @@
+project:
+  type: website
+
+website:
+  title: "Ali Siahkoohi"
+  image: mathias.png
+  google-analytics: "G-VCVVD4KWRF"
+  search: false
+  page-navigation: true
+
+  page-footer:
+    center:
+      - text: "Adapted from Mathias Louboutin's homepage"
+        href: https://mloubout.github.io/
+
+  navbar:
+    collapse-below: lg
+    background: light
+
+    tools:
+      - icon: github
+        href: https://github.com/alisiahkoohi
+      - icon: envelope-at-fill
+        href: mailto:alisk@rice.edu
+
+format:
+  html:
+    theme:
+      light: spacelab
+      dark: cyborg
+    toc: true
+    link-external-newwindow: True
+    code-copy: true
+    code-fold: true
+
+execute:
+  freeze: auto
+
+
