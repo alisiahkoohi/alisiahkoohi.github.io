@@ -3,37 +3,26 @@ project:
 
 website:
   title: "Ali Siahkoohi"
-  image: mathias.png
   google-analytics: "G-VCVVD4KWRF"
   search: false
-  page-navigation: true
+  
+  # Without this, the page footer will not display. It is removed in index.qmd
+  navbar:
+    background: dark
 
   page-footer:
     center:
-      - text: "Adapted from Mathias Louboutin's homepage"
-        href: https://mloubout.github.io/
-
-  navbar:
-    collapse-below: lg
-    background: light
-
-    tools:
-      - icon: github
-        href: https://github.com/alisiahkoohi
-      - icon: envelope-at-fill
-        href: mailto:alisk@rice.edu
+      - text: "License"
+        href: https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/LICENSE
 
 format:
   html:
     theme:
-      light: spacelab
+      light: yeti
       dark: cyborg
+    fontsize: 0.9em
+    mainfont: "sans-serif"
     toc: true
-    link-external-newwindow: True
-    code-copy: true
-    code-fold: true
-
-execute:
-  freeze: auto
-
-
+    toc-title: "<br>"
+    link-external-newwindow: false
+    minimal: true
