@@ -5,7 +5,7 @@ website:
   title: "Ali Siahkoohi"
   google-analytics: "G-VCVVD4KWRF"
   search: false
-  
+
   # Without this, the page footer will not display. It is removed in index.qmd
   navbar:
     background: dark
@@ -18,8 +18,8 @@ website:
 format:
   html:
     theme:
-      light: yeti
-      dark: cyborg
+      light: lumen
+      dark: slate
     fontsize: 0.9em
     mainfont: "sans-serif"
     toc: true
