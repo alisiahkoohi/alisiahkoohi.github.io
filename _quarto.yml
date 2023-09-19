@@ -5,16 +5,6 @@ website:
   title: "Ali Siahkoohi"
   google-analytics: "G-VCVVD4KWRF"
   search: false
-  sidebar:
-    style: "docked"
-    pinned: true
-    contents:
-      - text: "Home"
-        href: index.html
-      - text: "Research"
-        href: research.qmd
-      - text: "Misc"
-        href: miscellaneous.qmd
 
   # Without this, the page footer will not display. It is removed in index.qmd
   navbar:
@@ -22,17 +12,22 @@ website:
 
   page-footer:
     center:
-      - text: "License"
+      - text: <ins>Made with Quarto</ins>
+        href: https://quarto.org
+      - text: <ins>Source</ins>
+        href: https://github.com/alisiahkoohi/alisiahkoohi.github.io
+      - text: <ins>License</ins>
         href: https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/LICENSE
 
 format:
   html:
     theme:
-      light: lumen
-      dark: slate
-    fontsize: 0.9em
+      light: [simplex, custom.scss]
+      dark: [cyborg, custom_dark.scss]
+    fontsize: 0.95em
+    linestretch: 1.4
     mainfont: "sans-serif"
     toc: true
-    toc-title: "<br>"
+    toc-title: "<br><br><br>"
     link-external-newwindow: false
     minimal: true
