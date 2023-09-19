@@ -5,6 +5,16 @@ website:
   title: "Ali Siahkoohi"
   google-analytics: "G-VCVVD4KWRF"
   search: false
+  sidebar:
+    style: "docked"
+    pinned: true
+    contents:
+      - text: "Home"
+        href: index.html
+      - text: "Research"
+        href: research.qmd
+      - text: "Misc"
+        href: miscellaneous.qmd
 
   # Without this, the page footer will not display. It is removed in index.qmd
   navbar:

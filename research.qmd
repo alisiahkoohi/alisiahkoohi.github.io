@@ -1,0 +1,532 @@
+---
+title: "Research"
+navbar: false
+---
+
+
+I conduct multidisciplinary research under the guidance of [Maarten V. de Hoop](http://maartendehoop.rice.edu/) and [Richard G. Baraniuk](https://richb.rice.edu/) that focuses on developing deep learning methods to reliably solve scientific computing problems pertaining to inverse problems, uncertainty quantification, and signal processing.
+
+*Keywords:* generative models, variational inference, inverse problems, uncertainty quantification, signal processing
+
+## Publications
+
+### Preprints
+
+**Titan: Bringing the deep image prior to implicit representations**  
+L. Luzi, D. LeJeune, [A. Siahkoohi]{.underline}, S. Alemohammad, V. Saragadam, H. Babaei, N. Liu, Z. Wang, and R. G. Baraniuk  
+Sep. 2023.  
+[[pdf](https://arxiv.org/abs/2211.00219)]
+[[code](https://github.com/dlej/titan-implicit-prior)]
+[[bib](./files/lejeune2022tbtd.bib)]
+
+**Self-consuming generative models go MAD**  
+S. Alemohammad, J. Casco-Rodriguez, L. Luzi, A. I. Humayun, H. Babaei, D. LeJeune, [A. Siahkoohi]{.underline}, and R. G. Baraniuk  
+Jul. 2023.  
+[[pdf](https://arxiv.org/abs/2307.01850)]
+[[bib](./files/alemohammad2023scgm.bib)]
+[in the news
+^[1](https://www.tomshardware.com/news/generative-ai-goes-mad-when-trained-on-artificial-data-over-five-times),^
+^[2](https://futurism.com/ai-trained-ai-generated-data),^
+^[3](https://cointelegraph.com/magazine/ai-eye-ai-content-cannibalization-problem-threads-a-loss-leader-for-ai-data/),^
+^[4](https://www.newscientist.com/article/2382519-ais-trained-on-ai-generated-images-produce-glitches-and-blurs/),^
+^[5](https://futurism.com/ai-trained-ai-generated-data-interview)^]
+
+**Boomerang: Local sampling on image manifolds using diffusion models**  
+L. Luzi, P. M. Mayer, J. Casco-Rodriguez, [A. Siahkoohi]{.underline}, and R. G. Baraniuk  
+Jun. 2023.  
+[[pdf](https://openreview.net/forum?id=NYdThkjNW1)]
+[[code](https://colab.research.google.com/drive/1PV5Z6b14HYZNx1lHCaEVhId-Y4baKXwt)]
+[[link](https://openreview.net/forum?id=NYdThkjNW1)]
+[[bib](./files/luzi2022blso.bib)]
+
+**Conditional score-based diffusion models for Bayesian inference in infinite dimensions**  
+L. Baldassari, [A. Siahkoohi]{.underline}, J. Garnier, K. Sølna, and M. V. de Hoop  
+May 2023.  
+[[pdf](https://arxiv.org/abs/2305.19147)]
+[[code](https://github.com/alisiahkoohi/csgm) to be released]
+[[bib](./files/baldassari2023cscd.bib)]
+
+
+**Martian time-series unraveled: A multi-scale nested approach with factorial variational autoencoders**  
+[A. Siahkoohi]{.underline}, R. Morel, R. Balestriero, E. Allys, G. Sainton, T. Kawamura, and M. V. de Hoop  
+May 2023.  
+[[pdf](https://arxiv.org/abs/2305.16189)]
+[[slides](https://www.dropbox.com/s/ycwu3y3jik33xpo/slides.pdf?dl=0)]
+[[bib](./files/siahkoohi2023mtsu.bib)]
+
+---
+
+### Journal publications
+
+**Learned multiphysics inversion with differentiable programming and machine learning**  
+M. Louboutin, Z. Yin, R. Orozco, T. J. Grady II, [A. Siahkoohi]{.underline}, G. Rizzuti, P. A. Witte, O. Møyner, G. J. Gorman, and F. J. Herrmann  
+*The Leading Edge*, vol. 42, no. 7, pp. 474--486, Jul. 2023.  
+[[pdf](https://arxiv.org/abs/2304.05592)]
+[[link](https://library.seg.org/doi/10.1190/tle42070474.1)]
+[[bib](https://slim.gatech.edu/biblio/export/bibtex/7281)]
+[featured in [Seismic Soundoff](https://seg.org/podcasts/episode-194-improving-integration-in-machine-learning-workflows/)]
+
+**Optimized time-lapse acquisition design via spectral gap ratio minimization**  
+Y. Zhang, Z. Yin, O. López, [A. Siahkoohi]{.underline}, M. Louboutin, R. Kumar, and F. J. Herrmann  
+*Geophysics*, vol. 88, no. 4, A19--A23, Apr. 2023.  
+[[pdf](https://arxiv.org/abs/2302.01534)]
+[[link](https://library.seg.org/doi/10.1190/geo2023-0024.1)]
+[[bib](https://slim.gatech.edu/biblio/export/bibtex/7266)]
+
+**Reliable amortized variational inference with physics-based latent distribution correction**  
+[A. Siahkoohi]{.underline}, G. Rizzuti, R. Orozco, and F. J. Herrmann  
+*Geophysics*, vol. 88, no. 3, R297--R322, Jan. 2023.  
+[[pdf](https://arxiv.org/abs/2207.11640)]
+[[slides](https://slim.gatech.edu/Publications/Public/Conferences/SEG/2022/siahkoohi2022SEGWSrav/Thur-15-55-Siahkoohi.pdf)]
+[[code](https://github.com/slimgroup/ReliableAVI.jl)]
+[[link](https://library.seg.org/doi/abs/10.1190/geo2022-0472.1)]
+[[bib](https://slim.gatech.edu/biblio/export/bibtex/7217)]
+[featured in [Geophysics Bright Spots](https://library.seg.org/doi/10.1190/tle42080572.1)]
+
+**Deep Bayesian inference for seismic imaging with tasks**  
+[A. Siahkoohi]{.underline}, G. Rizzuti, and F. J. Herrmann  
+*Geophysics*, vol. 87, no. 5, S281--S302, Sep. 2022.  
+[[pdf](https://arxiv.org/abs/2110.04825)]
+[[code](https://github.com/slimgroup/dp4imaging)]
+[[link](https://library.seg.org/doi/10.1190/geo2021-0666.1)]
+[[bib](https://slim.gatech.edu/biblio/export/bibtex/7173)]
+
+**The importance of transfer learning in seismic modeling and imaging**  
+[A. Siahkoohi]{.underline}, M. Louboutin, and F. J. Herrmann  
+*Geophysics*, vol. 84, no. 6, A47--A52, Nov. 2019.  
+[[pdf](https://slim.gatech.edu/Publications/Public/Journals*Geophysics*2019/siahkoohi2019itl/siahkoohi2019itl.pdf)]
+[[code](https://github.com/alisiahkoohi/importance-of-transfer-learning)]
+[[link](https://library.seg.org/doi/10.1190/geo2019-0056.1)]
+[[bib](https://slim.gatech.edu/biblio/export/bibtex/7051)]
+
+---
+
+### Conference proceedings and presentations
+
+**Refining amortized posterior approximations using gradient-based summary statistics**  
+R. Orozco, [A. Siahkoohi]{.underline}, M. Louboutin, and F. J. Herrmann  
+*5th Symposium on Advances in Approximate Bayesian Inference*, Jul. 2023.  
+[[pdf](https://openreview.net/forum?id=3ukmQJ8Ky2N)]
+[[link](http://approximateinference.org/)]
+[[bib](./files/orozco2023rapa.bib)]
+
+**Uncertainty-aware time-lapse monitoring of geological carbon storage with learned surrogates**  
+Z. Yin, R. Orozco, M. Louboutin, [A. Siahkoohi]{.underline}, and F. J. Herrmann  
+*Engineering Mechanics Institute Conference*, Jun. 2023.  
+[[slides](https://slim.gatech.edu/Publications/Public/Conferences/EMI/2023/yin2023EMIutm/yin2023EMIutm.pdf)]
+[[link](https://www.emi-conference.org/)]
+[[bib](https://slim.gatech.edu/biblio/export/bibtex/7267)]
+
+**Learned one-shot imaging**  
+M. Louboutin, R. Orozco, [A. Siahkoohi]{.underline}, and F. J. Herrmann  
+*3rd International Meeting for Applied Geoscience & Energy*, Society of Exploration Geophysicists, May 2023.  
+[[html](https://slimgroup.github.io/IMAGE2023/OneShot/abstract.html)]
+[[code](https://github.com/mloubout/OneShotImaging)]
+[[bib](https://slim.gatech.edu/biblio/export/bibtex/7278)]
+
+**3D seismic survey design by maximizing the spectral gap**  
+Y. Zhang, Z. Yin, O. Lopez, [A. Siahkoohi]{.underline}, M. Louboutin, and F. J. Herrmann  
+*3rd International Meeting for Applied Geoscience & Energy*, Society of Exploration Geophysicists, May 2023.  
+[[html](https://slimgroup.github.io/IMAGE2023/zhang2023IMAGEsg/abstract.html)]
+[[bib](https://slim.gatech.edu/biblio/export/bibtex/7272)]
+
+**Unearthing InSights into Mars: Unsupervised source separation with limited data**  
+[A. Siahkoohi]{.underline}, R. Morel, M. V. de Hoop, E. Allys, G. Sainton, and T. Kawamura  
+*Proceedings of the 40th International Conference on Machine Learning*, vol. 202, PMLR, Jul. 2023, pp. 31754--31772.  
+[[pdf](https://proceedings.mlr.press/v202/siahkoohi23a/siahkoohi23a.pdf)]
+[[slides](https://www.dropbox.com/scl/fi/k5fmfp4cs97u5he3niowa/slides.pdf?rlkey=m6rmkye7c8bmrxx5upqzs20nk&dl=0)]
+[[poster](https://www.dropbox.com/scl/fi/eny6xqxt9uvjzhv080dpj/poster.pdf?rlkey=ddveuoe1d3c8jh17rrhn4o9x8&dl=0)]
+[[code](https://github.com/alisiahkoohi/insight_src_sep)]
+[[link](https://proceedings.mlr.press/v202/siahkoohi23a.html)]
+[[bib](./files/siahkoohi2023uiim.bib)]
+
+**Adjoint operators enable fast and amortized machine learning based Bayesian uncertainty quantification**  
+R. Orozco, [A. Siahkoohi]{.underline}, G. Rizzuti, T. van Leeuwen, and F. J. Herrmann  
+*Medical Imaging 2023: Image Processing*, International Society for Optics and Photonics, vol. 12464, SPIE, 2023, p. 124641L.  
+[[pdf](https://slim.gatech.edu/Publications/Public/Conferences/SPIE/2023/orozco2022SPIEadjoint/SPIE_2022_adjoint.pdf)]
+[[link](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12464/124641L/Adjoint-operators-enable-fast-and-amortized-machine-learning-based-Bayesian/10.1117/12.2651691.short)]
+[[bib](https://slim.gatech.edu/biblio/export/bibtex/7224)]
+
+**Amortized normalizing flows for transcranial ultrasound with uncertainty quantification**  
+R. Orozco, M. Louboutin, [A. Siahkoohi]{.underline}, G. Rizzuti, T. van Leeuwen, and F. J. Herrmann  
+*Medical Imaging with Deep Learning (MIDL) Conference*, Mar. 2023.  
+[[pdf](https://openreview.net/forum?id=LoJG-lUIlk)]
+[[link](https://2023.midl.io/)]
+[[bib](https://slim.gatech.edu/biblio/export/bibtex/7280)]
+
+**Ultra-low-bitrate speech coding with pretrained Transformers**  
+[A. Siahkoohi]{.underline}, M. Chinen, T. Denton, W. B. Kleijn, and J. Skoglund  
+*Proceedings of Interspeech 2022*, Sep. 2022, pp. 4421--4425.  
+[[pdf](https://www.isca-speech.org/archive/pdfs/interspeech_2022/siahkoohi22_interspeech.pdf)]
+[[link](https://www.isca-speech.org/archive/interspeech_2022/siahkoohi22_interspeech.html)]
+[[bib](./files/siahkoohi2022INTERSPEECHulb.bib)]
+
+**Reliable amortized variational inference with conditional normalizing flows
+via physics-based latent distribution correction**  
+[A. Siahkoohi]{.underline}, G. Rizzuti, R. Orozco, and F. J. Herrmann  ,
+In *IMAGE Workshop
+on Subsurface Uncertainty Description and Estimation: Moving Away from Single
+Prediction with Distribution Learning*, Aug. 2022.  
+[[slides](https://slim.gatech.edu/Publications/Public/Conferences/SEG/2022/siahkoohi2022SEGWSrav/Thur-15-55-Siahkoohi.pdf)]
+[[link](https://www.imageevent.org/Workshop/subsurface-uncertainty-description-estimation-moving-away-single-prediction-distribution-learning)]
+[[bib](https://slim.gatech.edu/biblio/export/bibtex/7213)]
+
+**Velocity continuation with Fourier neural operators for accelerated uncertainty quantification**  
+[A. Siahkoohi]{.underline}, M. Louboutin, and F. J. Herrmann  
+*2nd International Meeting for Applied Geoscience & Energy*, Society of Exploration Geophysicists, Aug. 2022, pp. 1765--1769.  
+[[pdf](https://arxiv.org/abs/2203.14386)]
+[[slides](https://slim.gatech.edu/Publications/Public/Conferences/SEG/2022/siahkoohi2022SEGvcw/Tue-16-30-Siahkoohi.pdf)]
+[[code](https://github.com/slimgroup/fno4vc)]
+[[link](https://library.seg.org/doi/10.1190/image2022-3750475.1)]
+[[bib](https://slim.gatech.edu/biblio/export/bibtex/7202)]
+
+**Accelerating innovation with software abstractions for scalable computational geophysics**  
+M. Louboutin, P. Witte, [A. Siahkoohi]{.underline}, G. Rizzuti, Z. Yin, R. Orozco, and F. J. Herrmann  
+*2nd International Meeting for Applied Geoscience & Energy*, Society of Exploration Geophysicists, Aug. 2022, pp. 1482--1486.  
+[[pdf](https://arxiv.org/abs/2203.15038)]
+[[slides](https://slim.gatech.edu/Publications/Public/Conferences/SEG/2022/louboutin2022SEGais/index.html)]
+[[link](https://library.seg.org/doi/10.1190/image2022-3750561.1)]
+[[bib](https://slim.gatech.edu/biblio/export/bibtex/7201)]
+
+**Learned coupled inversion for carbon sequestration monitoring and forecasting with Fourier neural operators**  
+Z. Yin, [A. Siahkoohi]{.underline}, M. Louboutin, and F. J. Herrmann  
+*2nd International Meeting for Applied Geoscience & Energy*, Society of Exploration Geophysicists, Aug. 2022, pp. 467--472.  
+[[pdf](https://arxiv.org/abs/2203.14396)]
+[[slides](https://slim.gatech.edu/Publications/Public/Conferences/SEG/2022/yin2022SEGlci/index.html)]
+[[code](https://github.com/slimgroup/FNO4CO2)]
+[[link](https://library.seg.org/doi/10.1190/image2022-3722848.1)]
+[[bib](https://slim.gatech.edu/biblio/export/bibtex/7200)]
+
+**A simulation-free seismic survey design by maximizing the spectral gap**  
+Y. Zhang, M. Louboutin, [A. Siahkoohi]{.underline}, Z. Yin, R. Kumar, and F. J. Herrmann  
+*2nd International Meeting for Applied Geoscience & Energy*, Society of Exploration Geophysicists, Aug. 2022, pp. 15--20.  
+[[pdf](https://arxiv.org/abs/2204.02801)]
+[[slides](https://slim.gatech.edu/Publications/Public/Conferences/SEG/2022/zhang2022SEGass/index.html)]
+[[code](https://github.com/slimgroup/opt_spectral_gap)]
+[[link](https://library.seg.org/doi/10.1190/image2022-3751690.1)]
+[[bib](https://slim.gatech.edu/biblio/export/bibtex/7199)]
+
+**Capturing velocity-model uncertainty and two-phase flow with Fourier neural operators**  
+[A. Siahkoohi]{.underline}, T. J. Grady II, A. P. Gahlot, H. T. Erdinc, and
+F. J. Herrmann  
+*EAGE AI in Geoscience and
+Geophysics: Current Trends and Future Prospects Dedicated Session*, Jun. 2022.  
+[[slides](https://slim.gatech.edu/Publications/Public/Conferences/EAGE/2022/herrmann2022EAGEcvm/Tuesday-Herrmann-10-10.pdf)]
+[[link](https://slim.gatech.edu/content/capturing-velocity-model-uncertainty-and-two-phase-flow-fourier-neural-operators)]
+[[bib](https://slim.gatech.edu/biblio/export/bibtex/7211)]
+
+**Wave-equation based inversion with amortized variational bayesian inference**  
+[A. Siahkoohi]{.underline}, R. Orozco, G. Rizzuti, and F. J. Herrmann  
+*EAGE Deep learning for seismic processing: Investigating the foundations workshop*, Jun. 2022.  
+[[pdf](https://arxiv.org/abs/2203.15881)]
+[[slides](https://www.dropbox.com/s/b7jmu793u2bcale/slides.pdf?dl=0)]
+[[code](https://github.com/slimgroup/ConditionalNFs4Imaging.jl)]
+[[link](https://eage.eventsair.com/eageannual2022/workshop-1)]
+[[bib](https://slim.gatech.edu/biblio/export/bibtex/7203)]
+
+**Julia for Geoscience**  
+Ziyi Yin, M. Louboutin, P. A. Witte, [A. Siahkoohi]{.underline}, G. Rizzuti,
+R. Orozco, H. Modzelewski, and F. J. Herrmann  
+*Transform*, Mar. 2022.  
+[[video](https://www.youtube.com/watch?v=HyWfp3NzIbg)]
+[[code](https://github.com/slimgroup/SLIMTutorials)]
+[[link](https://transform.softwareunderground.org/2022-julia-for-geoscience)]
+[[bib](https://slim.gatech.edu/biblio/export/bibtex/7207)]
+
+**Abstractions for at-scale seismic inversion**  
+M. Louboutin, [A. Siahkoohi]{.underline}, Z. Yin, R. Orozco, T. J. Grady II,
+Y. Zhang, P. A. Witte, G. Rizzuti, and F. J. Herrmann  ,
+In *Rice Oil and Gas
+High Performance Computing Conference*, Mar. 2022.  
+[[slides](https://slim.gatech.edu/Publications/Public/Conferences/RHPC/2022/louboutin2022RHPCafa/RiceHPC22.pdf)]
+[[video](https://youtu.be/scRTbP8w6Wk?t=4542)]
+[[link](https://slim.gatech.edu/content/abstractions-scale-seismic-inversion)]
+[[bib](https://slim.gatech.edu/biblio/export/bibtex/7209)]
+
+**Seismic velocity inversion and uncertainty quantification using conditional normalizing flows**  
+Y. Ren, P. A. Witte, [A. Siahkoohi]{.underline}, M. Louboutin, and F. J. Herrmann  
+*American Geophysical Union (AGU) Fall Meeting*, Dec. 2021.  
+[[link](https://agu.confex.com/agu/fm21/meetingapp.cgi/Paper/815883)]
+[[bib](https://slim.gatech.edu/biblio/export/bibtex/7170)]
+
+**Variational inference for artifact removal of adjoint solutions in photoacoustic problems**  
+R. Orozco, [A. Siahkoohi]{.underline}, G. Rizzuti, and F. J. Herrmann  ,
+In *ML4Seismic Partners Meeting*, Nov. 2021.  
+[[slides](https://slim.gatech.edu/Publications/Public/Conferences/ML4SEISMIC/2021/orozco2021ML4SEISMICvia/Tue-09-00-Orozco.html)]
+[[link](https://slim.gatech.edu/content/variational-inference-artifact-removal-adjoint-solutions-photoacoustic-problems)]
+[[bib](https://slim.gatech.edu/biblio/export/bibtex/7191)]
+
+**Uncertainty quantification in imaging and automatic horizon tracking---a Bayesian deep-prior based approach**  
+[A. Siahkoohi]{.underline}, G. Rizzuti, and F. J. Herrmann  
+*ML4Seismic Partners Meeting*, Nov. 2021.  
+[[slides](https://slim.gatech.edu/Publications/Public/Conferences/ML4SEISMIC/2021/siahkoohi2021ML4SEISMICuqi/Mon-11-20-Siahkoohi.pdf)]
+[[link](https://slim.gatech.edu/content/uncertainty-quantification-imaging-and-automatic-horizon-tracking%E2%80%94-bayesian-deep-prior-0)]
+[[bib](https://slim.gatech.edu/biblio/export/bibtex/7188)]
+
+**Multifidelity conditional normalizing flows for physics-guided Bayesian inference**  
+[A. Siahkoohi]{.underline}, R. Orozco, G. Rizzuti, P. A. Witte, M.
+Louboutin, and F. J. Herrmann  
+*ML4Seismic Partners
+Meeting*, Nov. 2021.  
+[[slides](https://slim.gatech.edu/Publications/Public/Conferences/ML4SEISMIC/2021/siahkoohi2021ML4SEISMICmcn/Mon-11-45-Siahkoohi.pdf)]
+[[link](https://slim.gatech.edu/content/multifidelity-conditional-normalizing-flows-physics-guided-bayesian-inference)]
+[[bib](https://slim.gatech.edu/biblio/export/bibtex/7189)]
+
+**Photoacoustic imaging with conditional priors from normalizing flows**  
+R. Orozco, [A. Siahkoohi]{.underline}, G. Rizzuti, T. van Leeuwen, and F. J. Herrmann  
+*Neural Information Processing Systems 2021 Workshop on Deep Learning and Inverse Problems*, Dec. 2021.  
+[[pdf](https://openreview.net/pdf?id=woi1OTvROO1)]
+[[poster](https://slim.gatech.edu/Publications/Public/Conferences/NIPS/2021/orozco2021NIPSpicp/posterneurips2021_orozco.pdf)]
+[[link](https://deep-inverse.org/index.html)]
+
+**Learned wave-based imaging---variational inference at scale**  
+F. J. Herrmann, [A. Siahkoohi]{.underline}, R. Orozco, G. Rizzuti, P. A.
+Witte, and M. Louboutin  
+*Delft*, Jun. 2021.  
+[[slides](https://slim.gatech.edu/Publications/Public/Conferences/Delft/2021/herrmann2021Delftlwi/herrmann2021Delftlwi.pdf)]
+[[link](https://slim.gatech.edu/content/learned-wave-based-imaging-%E2%80%93-variational-inference-scale)]
+[[bib](https://slim.gatech.edu/biblio/export/bibtex/7168)]
+
+**Fast and reliability-aware seismic imaging with conditional normalizing flows**  
+[A. Siahkoohi]{.underline}, R. Orozco, G. Rizzuti, P. A. Witte, M.
+Louboutin, and F. J. Herrmann  
+*Intelligent illumination of
+the Earth workshop*, Jun. 2021.  
+[[slides](https://slim.gatech.edu/Publications/Public/Conferences/KAUST/2021/siahkoohi2021EarthMLfar/siahkoohi2021EarthMLfar.pdf)]
+[[link](https://slim.gatech.edu/content/fast-and-reliability-aware-seismic-imaging-conditional-normalizing-flows)]
+[[bib](https://slim.gatech.edu/biblio/export/bibtex/7167)]
+
+**Learning by example: Fast reliability-aware seismic imaging with normalizing flows**  
+[A. Siahkoohi]{.underline} and F. J. Herrmann  
+*First International Meeting for Applied Geoscience & Energy*, Society of Exploration Geophysicists, Expanded Abstracts, 2021, pp. 1580--1585.  
+[[pdf](https://arxiv.org/abs/2104.06255)]
+[[slides](https://slim.gatech.edu/Publications/Public/Conferences/SEG/2021/siahkoohi2021SEGlbe/Tue-09-15-siahkoohi.pdf)]
+[[code](https://github.com/slimgroup/Software.SEG2021/tree/main/ReliabilityAwareImaging.jl)]
+[[link](https://library.seg.org/doi/10.1190/segam2021-3581836.1)]
+[[bib](https://slim.gatech.edu/biblio/export/bibtex/7161)]
+
+**Enabling uncertainty quantification for seismic data preprocessing using normalizing flows (NF)---An interpolation example**  
+R. Kumar, M. Kotsi, [A. Siahkoohi]{.underline}, and A. Malcolm  
+*First International Meeting for Applied Geoscience & Energy*, Society of Exploration Geophysicists, Expanded Abstracts, 2021, pp. 1515--1519.  
+[[pdf](https://slim.gatech.edu/Publications/Public/Conferences/SEG/2021/kumar2021SEGeuq/kumar2021SEGeuq.pdf)]
+[[code](https://github.com/slimgroup/Software.SEG2021/tree/main/WavefieldRecoveryUQ.jl)]
+[[link](https://library.seg.org/doi/10.1190/segam2021-3583705.1)]
+[[bib](https://slim.gatech.edu/biblio/export/bibtex/7162)]
+
+**ML@scale using randomized linear algebra**  
+F. J. Herrmann, M. Louboutin, and [A. Siahkoohi]{.underline}  
+*Microsoft*, Mar. 2021.  
+[[slides](https://slim.gatech.edu/Publications/Public/Conferences/Microsoft/2021/herrmann2021Microsoftrla/herrmann2021Microsoftrla_pres.pdf)]
+[[link](https://slim.gatech.edu/content/randomized-linear-algebra-enabler-large-scale-memory-efficient-deep-learning)]
+[[bib](https://slim.gatech.edu/biblio/export/bibtex/7159)
+
+**Deep Bayesian Inference for Task-based Seismic Imaging**  
+[A. Siahkoohi]{.underline}, G. Rizzuti, M. Louboutin, P. A. Witte, and F.
+J. Herrmann  
+*KAUST*, Mar. 2021.  
+[[slides](https://slim.gatech.edu/Publications/Public/Conferences/KAUST/2021/herrmann2021KAUSTdbi/Kaust.pdf)]
+[[link](https://slim.gatech.edu/content/deep-bayesian-inference-task-based-seismic-imaging)]
+[[bib](https://slim.gatech.edu/biblio/export/bibtex/7158)]
+
+**Preconditioned training of normalizing flows for variational inference in inverse problems**  
+[A. Siahkoohi]{.underline}, G. Rizzuti, M. Louboutin, P. Witte, and F. J. Herrmann  
+*3rd Symposium on Advances in Approximate Bayesian Inference*, Jan. 2021.  
+[[pdf](https://openreview.net/forum?id=P9m1sMaNQ8T)]
+[[slides](https://slim.gatech.edu/Publications/Public/Conferences/AABI/2021/siahkoohi2021AABIpto/siahkoohi2021AABIpto_pres.pdf)]
+[[code](https://github.com/slimgroup/Software.siahkoohi2021AABIpto)]
+[[link](http://approximateinference.org/)]
+[[bib](https://slim.gatech.edu/biblio/export/bibtex/7157)]
+
+**Unsupervised data-guided uncertainty analysis in imaging and horizon
+tracking**  
+[A. Siahkoohi]{.underline}, G. Rizzuti, M. Louboutin, and F. J. Herrmann  
+*3rd Annual Meeting of the SIAM Texas-Louisiana Section*, Oct.
+2020.  
+[[slides](https://slim.gatech.edu/Publications/Public/Conferences/SIAMTXLA/2020/siahkoohi2020SIAMTXLAudg/siahkoohi2020SIAMTXLAudg_pres.pdf)]
+[[link](https://www.math.tamu.edu/conferences/SIAMTXLA/index.html)]
+[[bib](https://slim.gatech.edu/biblio/export/bibtex/7152)]
+
+**Seismic imaging with uncertainty quantification: Sampling from the posterior with generative networks**  
+[A. Siahkoohi]{.underline}, P. A. Witte, M. Louboutin, F. J. Herrmann, and
+G. Rizzuti  
+*SIAM Conference on Imaging
+Science (IS20)*, July 2020.  
+[[slides](https://slim.gatech.edu/Publications/Public/Conferences/SIAMIS/2020/siahkoohi2020SIAMISsiu/siahkoohi2020SIAMISsiu_pres.pdf)]
+[[link](https://meetings.siam.org/sess/dsp_talk.cfm?p=105943)]
+[[bib](https://slim.gatech.edu/biblio/export/bibtex/7146)]
+
+**Parameterizing uncertainty by deep invertible networks, an application to reservoir characterization**  
+G. Rizzuti, [A. Siahkoohi]{.underline}, P. A. Witte, and F. J. Herrmann  
+*90th Annual International Meeting*, Society of Exploration Geophysicists, Expanded Abstracts, Sep. 2020, pp. 1541--1545.  
+[[pdf](https://arxiv.org/abs/2004.07871)]
+[[slides](https://slim.gatech.edu/Publications/Public/Conferences/SEG/2020/rizzuti2020SEGuqavp/rizzuti2020SEGuqavp_pres.pdf)]
+[[code](https://github.com/slimgroup/Software.SEG2020/tree/master/rizzuti2020SEGuqavp)]
+[[link](https://library.seg.org/doi/abs/10.1190/segam2020-3428150.1)]
+[[bib](https://slim.gatech.edu/biblio/export/bibtex/7137)]
+
+**Transfer learning in large-scale ocean bottom seismic wavefield reconstruction**  
+M. Zhang, [A. Siahkoohi]{.underline}, and F. J. Herrmann  
+*90th Annual International Meeting*, Society of Exploration Geophysicists, Expanded Abstracts, Sep. 2020, pp. 1666--1670.  
+[[pdf](https://arxiv.org/abs/2004.07388)]
+[[slides](https://slim.gatech.edu/Publications/Public/Conferences/SEG/2020/zhang2020SEGtli/zhang2020SEGtli_pres.pdf)]
+[[code](https://github.com/slimgroup/Software.SEG2020/tree/master/zhang2020SEGtli)]
+[[link](https://library.seg.org/doi/10.1190/segam2020-3427882.1)]
+[[bib](https://slim.gatech.edu/biblio/export/bibtex/7140)]
+
+**Weak deep priors for seismic imaging**  
+[A. Siahkoohi]{.underline}, G. Rizzuti, and F. J. Herrmann  
+*90th Annual International Meeting*, Society of Exploration Geophysicists, Expanded Abstracts, Sep. 2020, pp. 2998--3002.  
+[[pdf](https://arxiv.org/abs/2004.06835)]
+[[slides](https://slim.gatech.edu/Publications/Public/Conferences/SEG/2020/siahkoohi2020SEGwdp/siahkoohi2020SEGwdp_pres.pdf)]
+[[code](https://github.com/slimgroup/Software.SEG2020/tree/master/siahkoohi2020SEGwdp)]
+[[link](https://library.seg.org/doi/10.1190/segam2020-3417568.1)]
+[[bib](https://slim.gatech.edu/biblio/export/bibtex/7138)]
+
+**Uncertainty quantification in imaging and automatic horizon tracking---a Bayesian deep-prior based approach**  
+[A. Siahkoohi]{.underline}, G. Rizzuti, and F. J. Herrmann  
+*90th Annual International Meeting*, Society of Exploration Geophysicists, Expanded Abstracts, Sep. 2020, pp. 1636--1640.  
+[[pdf](https://arxiv.org/abs/2004.00227)]
+[[slides](https://slim.gatech.edu/Publications/Public/Conferences/SEG/2020/siahkoohi2020SEGuqi/siahkoohi2020SEGuqi_pres.pdf)]
+[[code](https://github.com/slimgroup/Software.SEG2020/tree/master/siahkoohi2020SEGuqi)]
+[[link](https://library.seg.org/doi/abs/10.1190/segam2020-3417560.1)]
+[[bib](https://slim.gatech.edu/biblio/export/bibtex/7135)]
+
+**A deep-learning based bayesian approach to seismic imaging and uncertainty quantification**  
+[A. Siahkoohi]{.underline}, G. Rizzuti, and F. J. Herrmann  
+*82nd EAGE Conference and Exhibition*, Extended Abstracts, 2020.  
+[[pdf](https://arxiv.org/abs/2001.04567)]
+[[slides](https://www.dropbox.com/s/yd7mywyjlfbr2sc/slides.pdf?dl=0)]
+[[code](https://github.com/alisiahkoohi/seismic-imaging-with-SGLD)]
+[[link](https://slim.gatech.edu/content/deep-learning-based-bayesian-approach-seismic-imaging-and-uncertainty-quantification)]
+[[bib](https://slim.gatech.edu/biblio/export/bibtex/7107)]
+
+**Learned imaging with constraints and uncertainty quantification**  
+F. J. Herrmann, [A. Siahkoohi]{.underline}, and G. Rizzuti  
+*Neural Information Processing Systems 2019 Deep Inverse workshop*, Dec. 2019.  
+[[pdf](https://openreview.net/pdf?id=Hyet2Q29IS)]
+[[slides](https://slim.gatech.edu/Publications/Public/Lectures/HotCSE/2019/herrmann2019HOTCSEliwcuq/herrmann2019HOTCSEliwcuq.pdf)]
+[[poster](https://slim.gatech.edu/Publications/Public/Conferences/NIPS/2019/herrmann2019NIPSliwcuc/herrmann2019NIPSliwcuc_pres.pdf)]
+[[link](https://deep-inverse.org/2019.html)]
+[[bib](https://slim.gatech.edu/biblio/export/bibtex/7086)]
+
+**Deep-learning based ocean bottom seismic wavefield recovery**  
+[A. Siahkoohi]{.underline}, R. Kumar, and F. J. Herrmann  
+*89th Annual International Meeting*, Society of Exploration Geophysicists, Expanded Abstracts, Aug. 2019, pp. 2232--2237.  
+[[pdf](https://slim.gatech.edu/Publications/Public/Conferences/SEG/2019/siahkoohi2019SEGdlb/siahkoohi2019SEGdlb.pdf)]
+[[TensorFlow code](https://github.com/alisiahkoohi/wavefield-reconstruction)]
+[[PyTorch code](https://github.com/alisiahkoohi/wavefield-reconstruction-torch)]
+[[slides](https://slim.gatech.edu/Publications/Public/Conferences/SEG/2019/siahkoohi2019SEGdlb/siahkoohi2019SEGdlb_pres.pdf)]
+[[link](https://library.seg.org/doi/10.1190/segam2019-3216632.1)]
+[[bib](https://slim.gatech.edu/biblio/export/bibtex/6979)]
+
+**Surface-related multiple elimination with deep learning**  
+[A. Siahkoohi]{.underline}, D. J. Verschuur, and F. J. Herrmann  
+*89th Annual International Meeting*, Society of Exploration Geophysicists, Expanded Abstracts, Aug. 2019, pp. 4629--4634.  
+[[pdf](https://slim.gatech.edu/Publications/Public/Conferences/SEG/2019/siahkoohi2019SEGsrm/siahkoohi2019SEGsrm.pdf)]
+[[slides](https://slim.gatech.edu/Publications/Public/Conferences/SEG/2019/siahkoohi2019SEGsrm/siahkoohi2019SEGsrm_pres.pdf)]
+[[link](https://library.seg.org/doi/10.1190/segam2019-3216723.1)]
+[[bib](https://slim.gatech.edu/biblio/export/bibtex/6980)]
+
+**Learned iterative solvers for the Helmholtz equation**  
+G. Rizzuti, [A. Siahkoohi]{.underline}, and F. J. Herrmann  
+*81st EAGE Conference and Exhibition*, Extended
+Abstracts, Jun. 2019.  
+[[pdf](https://slim.gatech.edu/Publications/Public/Conferences/EAGE/2019/rizzuti2019EAGElis/rizzuti2019EAGElis.pdf)]
+[[slides](https://slim.gatech.edu/Publications/Public/Conferences/EAGE/2019/rizzuti2019EAGElis/rizzuti2019EAGElis_pres.pdf)]
+[[link](https://www.earthdoc.org/content/papers/10.3997/2214-4609.201901542)]
+[[bib](https://slim.gatech.edu/biblio/export/bibtex/6736)]
+
+**Machine learning in seismic imaging: From low-fidelity to high-fidelity**  
+F. J. Herrmann, [A. Siahkoohi]{.underline}, and M. Louboutin  
+*SIAM Conference on
+Computational Science and Engineering (SIAM CSE)*, Mar. 2019.  
+[[slides](https://docs.google.com/presentation/d/16qUNahsGLol1G0Fyqucuy7EwDJOMaA4JAyooiUfXI6c/edit?usp=sharing)]
+[[link](https://meetings.siam.org/sess/dsp_talk.cfm?p=95707)]
+[[bib](./files/siahkoohi2019SIAMmlis.bib)]
+
+**Deep convolutional neural networks in prestack seismic---two exploratory examples**  
+[A. Siahkoohi]{.underline}, M. Louboutin, R. Kumar, and F. J. Herrmann  
+*88th Annual International Meeting*, Society of Exploration Geophysicists, Expanded Abstracts, Oct. 2018, pp. 2196--2200.  
+[[pdf](https://slim.gatech.edu/Publications/Public/Conferences/SEG/2018/siahkoohi2018SEGcnn/siahkoohi2018SEGcnn.pdf)]
+[[poster](https://slim.gatech.edu/Publications/Public/Conferences/SEG/2018/siahkoohi2018SEGcnn/siahkoohi2018SEGcnn_pres.pdf)]
+[[link](https://library.seg.org/doi/10.1190/segam2018-2998599.1)]
+[[bib](https://slim.gatech.edu/biblio/export/bibtex/5956)]
+
+**The power of abstraction in computational exploration seismology**  
+F. J. Herrmann, G. J. Gorman, J. Hückelheim, K. Lensink, P. Kelly,
+N. Kukreja, H. Modzelewski, M. Lange, M. Louboutin, F.
+Luporini, [A. Siahkoohi]{.underline}, and P. A. Witte  
+*Smoky Mountains Computational
+Sciences and Engineering Conference*, Aug. 2018.  
+[[slides](https://slim.gatech.edu/Publications/Public/Conferences/SMC/2018/herrmann2018SMCtpa/herrmann2018SMCtpa_pres.pdf)]
+[[link](https://slim.gatech.edu/content/power-abstraction-computational-exploration-seismology)]
+[[bib](https://slim.gatech.edu/biblio/export/bibtex/5950)]
+
+**Seismic data reconstruction with generative adversarial networks**  
+[A. Siahkoohi]{.underline}, R. Kumar, and F. J. Herrmann  
+*80th EAGE Conference and Exhibition*, Extended Abstracts, Jun. 2018.  
+[[pdf](https://slim.gatech.edu/Publications/Public/Conferences/EAGE/2018/siahkoohi2018EAGEsdr/siahkoohi2018EAGEsdr.pdf)]
+[[slides](https://slim.gatech.edu/Publications/Public/Conferences/EAGE/2018/siahkoohi2018EAGEsdr/siahkoohi2018EAGEsdr_pres.pdf)]
+[[link](https://www.earthdoc.org/content/papers/10.3997/2214-4609.201801393)]
+[[bib](https://slim.gatech.edu/biblio/export/bibtex/5961)]
+
+**Sparsity promoting least squares migration for laterally inhomogeneous media**  
+[A. Siahkoohi]{.underline} and A. Gholami  
+*7th EAGE Saint Petersburg International Conference and Exhibition*, Extended Abstracts, Apr. 2016.  
+[[pdf](./files/84208.pdf)]
+[[link](https://earthdoc.eage.org/publication/publicationdetails/?publication=84208)]
+[[bib](./files/LSM.bib)]
+
+**A novel utilization of wireless sensor networks as data acquisition system in smart grids**  
+M. S. Ebrahimi, M. H. Daraei, J. Rezaei, and [A. Siahkoohi]{.underline}  
+*Materials Science and Information Technology*, ser. Advanced Materials Research, vol. 433-440, Trans Tech Publications, Ltd., 2012, pp. 6725--6730.  
+[[link](https://www.scientific.net/AMR.433-440.6725.pdf?casa_token=tE-TNCrNU3wAAAAA:HI50WWmEsDMJwheJ4KWDZAcZwmbJz0k_9geUtnY3YuYGsN1X8HAEq8p8JmyoY9qj4YFZqFy8)]
+[[link](https://www.scientific.net/AMR.433-440.6725)]
+[[bib](./files/WSN.bib)]
+
+**A content-based digital image watermarking algorithm robust against JPEG compression**  
+A. Najafi, [A. Siahkoohi]{.underline}, and M. B. Shamsollahi  
+*2011 IEEE International Symposium on Signal Processing and Information Technology (ISSPIT)*, IEEE, 2011, pp. 432--437.  
+[[pdf](./files/6151601.pdf)]
+[[link](https://ieeexplore.ieee.org/document/6151601/)]
+[[bib](./files/Watermarking.bib)]
+
+---
+
+### Thesis
+
+**Deep generative models for solving geophysical inverse problems**  
+[A. Siahkoohi]{.underline}  
+*PhD Thesis*, Georgia Institute of Technology, Jul. 2022.  
+[[pdf](https://slim.gatech.edu/Publications/Public/Thesis/2022/siahkoohi2022THdgmf/siahkoohi2022THdgmf.pdf)]
+[[slides](https://slim.gatech.edu/Publications/Public/Thesis/2022/siahkoohi2022THdgmf/siahkoohi2022THdgmf_pres.pdf)]
+[[link](http://hdl.handle.net/1853/67250)]
+[[bib](https://slim.gatech.edu/biblio/export/bibtex/7214)]
+
+---
+
+### Technical reports
+
+**Low-memory stochastic backpropagation with multi-channel randomized trace estimation**  
+M. Louboutin, [A. Siahkoohi]{.underline}, R. Wang, and F. J. Herrmann  
+*Georgia Institute of Technology*, Tech. Rep., Jun. 2021.  
+[[pdf](https://arxiv.org/abs/2106.06998)]
+[[code](https://github.com/slimgroup/XConv)]
+[[link](https://slim.gatech.edu/content/low-memory-stochastic-backpropagation-multi-channel-randomized-trace-estimation)]
+[[bib](https://slim.gatech.edu/biblio/export/bibtex/7165)]
+
+**Faster uncertainty quantification for inverse problems with conditional normalizing flows**  
+[A. Siahkoohi]{.underline}, G. Rizzuti, P. A. Witte, and F. J. Herrmann  
+*Georgia Institute of Technology*, Tech. Rep., Jul. 2020.  
+[[pdf](https://arxiv.org/abs/2007.07985.pdf)]
+[[link](https://slim.gatech.edu/content/faster-uncertainty-quantification-inverse-problems-conditional-normalizing-flows)]
+[[bib](https://slim.gatech.edu/biblio/export/bibtex/7145)]
+
+**Neural network augmented wave-equation simulation**  
+[A. Siahkoohi]{.underline}, M. Louboutin, and F. J. Herrmann  
+*Georgia Institute of Technology*, Tech. Rep., Sep. 2019.  
+[[pdf](https://arxiv.org/abs/1910.00925)]
+[[code](https://github.com/alisiahkoohi/NN-augmented-wave-sim)]
+[[link](https://slim.gatech.edu/content/neural-network-augmented-wave-equation-simulation)]
+[[bib](https://slim.gatech.edu/biblio/export/bibtex/7100)]
+
