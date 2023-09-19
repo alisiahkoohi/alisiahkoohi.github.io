@@ -1,0 +1,10 @@
+/*-- scss:defaults --*/
+// Base document colors
+$blue:    #0451A5 !default;
+$primary:       $blue !default;
+
+
+.quarto-about-solana .about-image {
+    border: 1px solid #727475;
+    background-color: #ffffff;
+  }
