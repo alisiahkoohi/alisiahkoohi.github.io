@@ -1,0 +1,17 @@
+Ali Siahkoohi is a Simons Postdoctoral Fellow in the Department of Computational
+Applied Mathematics & Operations Research at Rice University, jointly hosted by
+Dr. Maarten V. de Hoop and Dr. Richard G. Baraniuk. He received his Ph.D. in
+Computational Science and Engineering from Georgia Institute of Technology in
+2022. His research lies at the intersection of computational science and
+artificial intelligence, focusing on developing scalable methods for quantifying
+uncertainty in AI models. His expertise includes deep learning, generative models, and
+uncertainty quantification, with applications in large-scale inverse problems
+and other areas of computational science. Throughout his academic journey, Ali
+Siahkoohi has authored 39 peer-reviewed articles published in prestigious venues
+such as NeurIPS, ICML, ICLR, and Geophysics. He has further contributed to the
+scientific community as a guest editor for the Journal of Mathematics, an
+associate editor for Acta Geophysica, a program chair for the AAAI Conference on
+Artificial Intelligence, and a reviewer for several prestigious journals and
+conferences in the fields of computational science and artificial intelligence.
+Ali Siahkoohi is also the recipient of the Future Faculty Fellows award from
+Rice University's George R. Brown School of Engineering.
