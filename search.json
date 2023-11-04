@@ -4,7 +4,7 @@
     "href": "index.html#research-interests",
     "title": "Ali Siahkoohi",
     "section": "Research interests",
-    "text": "Research interests\nI conduct research under the guidance of Maarten V. de Hoop and Richard G. Baraniuk that focuses on developing deep learning methods to reliably solve scientific computing problems pertaining to inverse problems, uncertainty quantification, and signal processing.\nKeywords: generative models, variational inference, inverse problems, uncertainty quantification, signal processing"
+    "text": "Research interests\nI conduct research under the guidance of Maarten V. de Hoop and Richard G. Baraniuk that focuses on developing scalable deep learning methods to reliably solve computational problems in the physical and data sciences such as high-dimensional Bayesian inference for solving medical and geophysical inverse problems and unsupervised time series analysis with limited data.\nKeywords: generative models, variational inference, inverse problems, uncertainty quantification, signal processing"
   },
   {
     "objectID": "index.html#education",
