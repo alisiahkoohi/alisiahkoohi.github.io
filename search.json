@@ -4,7 +4,7 @@
     "href": "index.html#research-interests",
     "title": "Ali Siahkoohi",
     "section": "Research interests",
-    "text": "Research interests\nMy research in scientific machine learning, under the mentorship of Maarten V. de Hoop and Richard G. Baraniuk, bridges the gap between AI and computational science by developing uncertainty-aware AI methods that incorporate domain-specific knowledge. Primarily based on generative models and amortized inference, these methods integrate system invariances, physical principles, and mathematical constraints, effectively combining the strengths of both AI and computational science. This integration enhances the robustness and trustworthiness of AI models, making them particularly valuable in complex, dynamic environments with limited computational resources and scarce high-fidelity data."
+    "text": "Research interests\nMy research in scientific machine learning, under the mentorship of Maarten V. de Hoop and Richard G. Baraniuk, bridges the gap between AI and computational science by developing uncertainty-aware AI methods, primarily based on generative models and amortized inference. These methods incorporate domain-specific knowledge, thereby enhancing the robustness and trustworthiness of AI models in complex, dynamic environments."
   },
   {
     "objectID": "index.html#education",
