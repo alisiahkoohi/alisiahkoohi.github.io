@@ -4,7 +4,7 @@
     "href": "index.html#research-interests",
     "title": "Ali Siahkoohi",
     "section": "Research interests",
-    "text": "Research interests\nMy research, under the mentorship of Maarten V. de Hoop and Richard G. Baraniuk, focuses on understanding and addressing AI reliability concerns through computational science principles, focusing on quantifying model uncertainty and incorporating domain-specific knowledge, e.g., system invariances, mathematical constraints, and physical principles."
+    "text": "Research interests\nMy research, under the mentorship of Maarten V. de Hoop and Richard G. Baraniuk, focuses on understanding and addressing AI reliability concerns, particularly by designing scalable methods for quantifying uncertainty in AI models through the use of generative models, variational inference, and hypernetworks."
   },
   {
     "objectID": "index.html#education",
