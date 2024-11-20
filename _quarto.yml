@@ -22,8 +22,8 @@ website:
 format:
   html:
     theme:
-      light: [simplex, custom.scss]
       dark: [cyborg, custom_dark.scss]
+      light: [simplex, custom.scss]
     fontsize: 0.95em
     linestretch: 1.4
     mainfont: "sans-serif"
