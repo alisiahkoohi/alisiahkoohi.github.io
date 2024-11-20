@@ -22,9 +22,9 @@ website:
 format:
   html:
     theme:
-      light: [simplex, custom.scss]
       dark: [cyborg, custom_dark.scss]
-    fontsize: 0.95em
+      light: [simplex, custom.scss]
+    fontsize: 1.0em
     linestretch: 1.4
     mainfont: "sans-serif"
     toc: true
