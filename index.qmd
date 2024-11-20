@@ -39,7 +39,10 @@ about:
 
 ## Research interests
 
-My research, under the mentorship of [Maarten V. de Hoop](http://maartendehoop.rice.edu/) and [Richard G. Baraniuk](https://richb.rice.edu/), focuses on developing scalable **uncertainty quantification** methods for high-dimensional problems using generative models, variational inference, and hypernetworks, with an emphasis on addressing AI reliability concerns.
+My research, under the mentorship of [Maarten V. de Hoop](http://maartendehoop.rice.edu/) and [Richard G. Baraniuk](https://richb.rice.edu/), focuses on understanding and
+addressing AI robustness concerns, particularly by designing scalable
+methods for **quantifying uncertainty in AI** models through the
+use of generative models, variational inference, and hypernetworks.
 
 ## Education
 
