@@ -1,12 +1,13 @@
 ---
 title: Ali Siahkoohi
-subtitle: Simons Postdoctoral Fellow
-description: | 
-  Department of Computational Applied Mathematics and Operations Research<br>
-  Rice University<br>
-  Houston, TX, USA<br>
-
-  [[[alisk@rice.edu]{.underline}](mailto:alisk@rice.edu)] &ensp; [[[CV]{.underline}](./files/AliSiahkoohi-CV.pdf)] &ensp; [[[GitHub]{.underline}](https://github.com/alisiahkoohi)] &ensp; [[[Google Scholar]{.underline}](https://scholar.google.com/citations?hl=en&user=sxRMqYIAAAAJ&view_op=list_works&sortby=pubdate)]
+subtitle: Assistant Professor
+description: |
+  [[Laboratory for Uncertainty Quantification and Inference]{.underline}](https://luqigroup.github.io/) (LUQI)<br>
+  Departments of Computer Science and Electrical & Computer Engineering<br>
+  University of Central Florida<br>
+  Orlando, FL, USA
+  
+  [[[alisk@ucf.edu]{.underline}](mailto:alisk@ucf.edu)] &ensp; [[[CV]{.underline}](./files/AliSiahkoohi-CV.pdf)] &ensp; [[[GitHub]{.underline}](https://github.com/alisiahkoohi)] &ensp; [[[Google Scholar]{.underline}](https://scholar.google.com/citations?hl=en&user=sxRMqYIAAAAJ&view_op=list_works&sortby=pubdate)]
 
 navbar: false
 about:
@@ -14,38 +15,42 @@ about:
   template: solana
   image: files/ali.jpg
   image-shape: round
-  image-width: 185px
+  image-width: 215px
 ---
 
 :::{#heading}
 :::
 
 
-<div style="display: flex; justify-content: center;">
+<!-- <div style="
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 10px 0; /* Adds vertical spacing without excessive whitespace */
+">
   <span style="
-    background-color: #fdfbd3; 
-    color: #373a3c; 
-    border: 1px solid #727475; 
-    padding: 6px; 
+    background-color: #fdfbd3;
+    color: #373a3c;
+    border: 1px solid #727475;
+    padding: 6px;
     border-radius: 5px;
     display: inline-block;
     max-width: 100%;
     word-wrap: break-word;
     text-align: center;
   ">
-    <strong>On the academic job market for Fall 2025</strong>
+    <strong>Reach out if interested to join the [LUQI](https://luqigroup.github.io/) group!</strong>
   </span>
-</div>
+</div> -->
 
-## Research interests
+## Research
 
-My research, under the mentorship of [Maarten V. de Hoop](http://maartendehoop.rice.edu/) and [Richard G. Baraniuk](https://richb.rice.edu/), focuses on developing scalable **uncertainty quantification** methods for high-dimensional problems using generative models, variational inference, and hypernetworks, with an emphasis on addressing AI reliability concerns.
+My research tackles **uncertainty quantification** in complex systems arising in computational science and engineering, with a focus on building **reliable, uncertainty-aware AI** systems. To this end, my team develops methods that leverage tools like **generative models, variational inference, and hypernetworks** to characterize uncertainty in complex models at scale, with implications for **large-scale, PDE-based inverse problems**.
 
 ## Education
 
 **Georgia Institute of Technology**, Atlanta, GA, USA  
-Ph.D., 2022, *Computational Science and Engineering*  
-Minor in *Applied Mathematics*
+Ph.D., 2022, *Computational Science and Engineering*
 
 **University of Tehran**, Tehran, Iran  
 M.Sc., 2016, *Geophysics*
@@ -53,35 +58,44 @@ M.Sc., 2016, *Geophysics*
 **Sharif University of Technology**, Tehran, Iran  
 B.Sc., 2013, *Electrical Engineering*
 
+## Teaching
+
+2025--2026
+: - [CAP 4611: Algorithms for Machine Learning](https://luqigroup.github.io/cap-4611/) (Fall 2025)
+
 ## Publications
 
 ### Preprints
+
+**Multi-scale clustering and source separation of InSight mission seismic data**  
+[A. Siahkoohi]{.underline}, R. Morel, R. Balestriero, E. Allys, G. Sainton, T. Kawamura, and M. V. de Hoop  
+2025.  
+[[pdf](https://arxiv.org/abs/2305.16189)]
+[[code](https://github.com/alisiahkoohi/facvae)]
+[[slides](https://www.dropbox.com/s/ycwu3y3jik33xpo/slides.pdf?dl=0)]
+[[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/SiahkoohiMorelBalestrieroEtAl_2025.bib)]
 
 **Improving fairness and mitigating MADness in generative models**  
 P. M. Mayer, L. Luzi, [A. Siahkoohi]{.underline}, D. H. Johnson, and R. G. Baraniuk  
 2024.  
 [[pdf](https://arxiv.org/abs/2405.13977)]
+[[code](https://github.com/alisiahkoohi/torchhyper)]
+[[slides](https://www.dropbox.com/scl/fi/5ajtqzg15vu4tpbqwc78d/slides.pdf?rlkey=zmdpkzht0o0ax9j9cu7y0aoir&st=l412imzl&dl=0)]
 [[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/MayerLuziSiahkoohiEtAl_2024.bib)]
-
-**Martian time-series unraveled: A multi-scale nested approach with factorial variational autoencoders**  
-[A. Siahkoohi]{.underline}, R. Morel, R. Balestriero, E. Allys, G. Sainton, T. Kawamura, and M. V. de Hoop  
-2024.  
-[[pdf](https://arxiv.org/abs/2305.16189)]
-[[code](https://github.com/alisiahkoohi/facvae)]
-[[slides](https://www.dropbox.com/s/ycwu3y3jik33xpo/slides.pdf?dl=0)]
-[[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/SiahkoohiMorelBalestrieroEtAl_2024.bib)]
-
-**ASPIRE: Iterative amortized posterior inference for Bayesian inverse problems**  
-R. Orozco, [A. Siahkoohi]{.underline}, M. Louboutin, and F. J. Herrmann  
-2024.  
-[[pdf](https://arxiv.org/abs/2405.05398)]
-[[code](https://github.com/slimgroup/ASPIRE.jl)]
-[[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/OrozcoSiahkoohiLouboutinEtAl_2024.bib)]
-
 
 ---
 
 ### Journal papers
+
+
+**ASPIRE: Iterative amortized posterior inference for Bayesian inverse problems**  
+R. Orozco, [A. Siahkoohi]{.underline}, M. Louboutin, and F. J. Herrmann  
+*Inverse Problems*, 41(4):045001, 2025.  
+[[pdf](https://arxiv.org/abs/2405.05398)]
+[[code](https://github.com/slimgroup/ASPIRE.jl)]
+[[link](https://iopscience.iop.org/article/10.1088/1361-6420/adba3d)]
+[[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/OrozcoSiahkoohiLouboutinEtAl_2025.bib)]
+
 
 **InvertibleNetworks.jl: A Julia package for scalable normalizing flows**  
 R. Orozco, P. Witte, M. Louboutin, [A. Siahkoohi]{.underline}, G. Rizzuti, B. Peters, and F. J. Herrmann  
@@ -164,7 +178,9 @@ S. Alemohammad, J. Casco-Rodriguez, L. Luzi, A. I. Humayun, H. Babaei, D. LeJeun
 ^[9](https://fortune.com/2024/04/18/linkedin-microsoft-collaborative-articles-generative-ai-feedback-loop-user-backlash/?456789),^
 ^[10](https://news.rice.edu/news/2024/breaking-mad-generative-ai-could-break-internet),^
 ^[11](https://www.nytimes.com/interactive/2024/08/26/upshot/ai-synthetic-data.html),^
-^[12](https://futurism.com/ai-slowly-killing-itself)^]
+^[12](https://futurism.com/ai-slowly-killing-itself),^
+^[13](https://magazine.rice.edu/winter-2025/ais-mad-loops)^]  
+[[self-consuming AI resources](https://dsp.rice.edu/ai-loops/)]
 
 
 **Titan: Bringing the deep image prior to implicit representations**  
@@ -451,7 +467,7 @@ A. Najafi, [A. Siahkoohi]{.underline}, and M. B. Shamsollahi
 
 **Taming score-based diffusion priors for infinite-dimensional nonlinear inverse problems**  
 L. Baldassari, [A. Siahkoohi]{.underline}, J. Garnier, K. Sølna, and M. V. de Hoop  
-2024.  
+Technical Report arXiv:2405.15676, Rice University, 2024.  
 [[pdf](https://arxiv.org/abs/2405.15676)]
 [[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/BaldassariSiahkoohiGarnierEtAl_2024.bib)]
 
