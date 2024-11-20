@@ -24,7 +24,7 @@ format:
     theme:
       light: [simplex, custom.scss]
       dark: [cyborg, custom_dark.scss]
-    fontsize: 0.95em
+    fontsize: 1.0em
     linestretch: 1.4
     mainfont: "sans-serif"
     toc: true
