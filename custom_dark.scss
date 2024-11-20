@@ -1,11 +1,30 @@
 /*-- scss:defaults --*/
 // Base document colors
-$blue:    #8eb3d4 !default;
+$blue:    #0BFF00 !default;
 $primary:       $blue !default;
-$body-color: #c5c8c6 !default;
-$body-bg: #1d1f21 !default;
+$body-color: #11c700 !default;
+$body-bg: #011A00 !default;
+
+
+/*-- scss:rules --*/
+h1, h2, h3, h4, h5, h6 {
+  color: $primary; // Or replace with a direct hex code like #0BFF00
+}
 
 .quarto-about-solana .about-image {
     border: 1px solid #727475;
     background-color: #ffffff;
   }
+
+
+// /*-- scss:defaults --*/
+// // Base document colors
+// $blue:    #8eb3d4 !default;
+// $primary:       $blue !default;
+// $body-color: #c5c8c6 !default;
+// $body-bg: #1d1f21 !default;
+
+// .quarto-about-solana .about-image {
+//     border: 1px solid #727475;
+//     background-color: #ffffff;
+//   }
