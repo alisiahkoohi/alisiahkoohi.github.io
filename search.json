@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "index.html#research-interests",
-    "href": "index.html#research-interests",
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
     "title": "Ali Siahkoohi",
-    "section": "Research interests",
-    "text": "Research interests\nMy research focuses on designing scalable methods for uncertainty quantification in high-dimensional problems in computational science and engineering, with broader impact on AI reliability."
+    "section": "About me",
+    "text": "About me\nI quantify uncertainty for a living. Specifically, I design scalable computational methods for uncertainty quantification in high-dimensional problems in science and engineering, with broader impacts on AI reliability."
   },
   {
     "objectID": "index.html#education",
