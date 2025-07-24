@@ -4,7 +4,7 @@
     "href": "index.html#research",
     "title": "Ali Siahkoohi",
     "section": "Research",
-    "text": "Research\nI work on uncertainty quantification for high-dimensional problems in computational science and engineering, with an emphasis on uncertainty-aware AI."
+    "text": "Research\nMy research tackles uncertainty quantification in complex systems arising in computational science and engineering, with a focus on building reliable, uncertainty-aware AI systems. To this end, my team develops methods that leverage tools like generative models, variational inference, and hypernetworks to characterize uncertainty in complex models at scale, with implications for large-scale, PDE-based inverse problems."
   },
   {
     "objectID": "index.html#education",
