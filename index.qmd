@@ -67,14 +67,6 @@ B.Sc., 2013, *Electrical Engineering*
 
 ### Preprints
 
-**Multi-scale clustering and source separation of InSight mission seismic data**  
-[A. Siahkoohi]{.underline}, R. Morel, R. Balestriero, E. Allys, G. Sainton, T. Kawamura, and M. V. de Hoop  
-2025.  
-[[pdf](https://arxiv.org/abs/2305.16189)]
-[[code](https://github.com/alisiahkoohi/facvae)]
-[[slides](https://www.dropbox.com/s/ycwu3y3jik33xpo/slides.pdf?dl=0)]
-[[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/SiahkoohiMorelBalestrieroEtAl_2025.bib)]
-
 **Improving fairness and mitigating MADness in generative models**  
 P. M. Mayer, L. Luzi, [A. Siahkoohi]{.underline}, D. H. Johnson, and R. G. Baraniuk  
 2024.  
@@ -87,6 +79,13 @@ P. M. Mayer, L. Luzi, [A. Siahkoohi]{.underline}, D. H. Johnson, and R. G. Baran
 
 ### Journal papers
 
+**Multi-scale clustering and source separation of InSight mission seismic data**  
+[A. Siahkoohi]{.underline}, R. Morel, R. Balestriero, E. Allys, G. Sainton, T. Kawamura, and M. V. de Hoop  
+*IEEE Transactions on Geoscience and Remote Sensing*, 2025, In print.  
+[[pdf](https://arxiv.org/abs/2305.16189)]
+[[code](https://github.com/alisiahkoohi/facvae)]
+[[slides](https://www.dropbox.com/s/ycwu3y3jik33xpo/slides.pdf?dl=0)]
+[[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/SiahkoohiMorelBalestrieroEtAl_2025.bib)]
 
 **ASPIRE: Iterative amortized posterior inference for Bayesian inverse problems**  
 R. Orozco, [A. Siahkoohi]{.underline}, M. Louboutin, and F. J. Herrmann  
