@@ -2,12 +2,12 @@
 title: Ali Siahkoohi
 subtitle: Assistant Professor
 description: |
-  [[Laboratory for Uncertainty Quantification and Inference]{.underline}](https://luqigroup.github.io/) (LUQI)<br>
-  Departments of Computer Science and Electrical & Computer Engineering<br>
+  [Laboratory for Uncertainty Quantification and Inference](https://luqigroup.github.io/)<br>
+  Department of Computer Science<br>
   University of Central Florida<br>
   Orlando, FL, USA
   
-  [[[alisk@ucf.edu]{.underline}](mailto:alisk@ucf.edu)] &ensp; [[[CV]{.underline}](./files/AliSiahkoohi-CV.pdf)] &ensp; [[[GitHub]{.underline}](https://github.com/alisiahkoohi)] &ensp; [[[Google Scholar]{.underline}](https://scholar.google.com/citations?hl=en&user=sxRMqYIAAAAJ&view_op=list_works&sortby=pubdate)]
+  [[SPRK 212](https://maps.app.goo.gl/sQDSjpikukU6ykPo9)] &ensp; [[alisk@ucf.edu](mailto:alisk@ucf.edu)] &ensp; [[CV](./files/AliSiahkoohi-CV.pdf)] &ensp; [[GitHub](https://github.com/alisiahkoohi)] &ensp; [[Google Scholar](https://scholar.google.com/citations?hl=en&user=sxRMqYIAAAAJ&view_op=list_works&sortby=pubdate)]
 
 navbar: false
 about:
@@ -22,74 +22,59 @@ about:
 :::
 
 
-<!-- <div style="
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  margin: 10px 0; /* Adds vertical spacing without excessive whitespace */
-">
-  <span style="
-    background-color: #fdfbd3;
-    color: #373a3c;
-    border: 1px solid #727475;
-    padding: 6px;
-    border-radius: 5px;
-    display: inline-block;
-    max-width: 100%;
-    word-wrap: break-word;
-    text-align: center;
-  ">
-    <strong>Reach out if interested to join the [LUQI](https://luqigroup.github.io/) group!</strong>
-  </span>
-</div> -->
+## Background
+
+- Assistant Professor, *University of Central Florida* (2025--present)
+- Simons Postdoctoral Fellow, *Rice University* (2022--2025)
+- Ph.D., *Georgia Institute of Technology*, Computational Science and Engineering  (2022)
+- M.Sc., *University of Tehran*, Geophysics (2016)  
+- B.Sc., *Sharif University of Technology*, Electrical Engineering (2013)
+
 
 ## Research
 
-My research tackles **uncertainty quantification** in complex systems arising in computational science and engineering, with a focus on building **reliable, uncertainty-aware AI** systems. To this end, my team develops methods that leverage tools like **generative models, variational inference, and hypernetworks** to characterize uncertainty in complex models at scale, with implications for **large-scale, PDE-based inverse problems**.
-
-## Education
-
-**Georgia Institute of Technology**, Atlanta, GA, USA  
-Ph.D., 2022, *Computational Science and Engineering*
-
-**University of Tehran**, Tehran, Iran  
-M.Sc., 2016, *Geophysics*
-
-**Sharif University of Technology**, Tehran, Iran  
-B.Sc., 2013, *Electrical Engineering*
+My research focuses on uncertainty quantification in complex systems that arise in computational science and engineering, with an emphasis on deep generative modeling. By integrating deep learning and scientific computing, my group develops scalable sampling techniques for high-dimensional distributions. This work enables Bayesian inference in large-scale PDE-based inverse problems (e.g., seismic and medical imaging) and provides a principled framework for building reliable, uncertainty-aware AI models for real-world applications.
 
 ## Teaching
 
-2025--2026
-: - [CAP 4611: Algorithms for Machine Learning](https://luqigroup.github.io/cap-4611/) (Fall 2025)
+- [Sampling Methods for Uncertainty Quantification](https://luqigroup.github.io/cap-6938/) (Spring 2026)
+- [Algorithms for Machine Learning](https://luqigroup.github.io/cap-4611/) (Fall 2025)
 
 ## Publications
 
 ### Preprints
 
-**Multi-scale clustering and source separation of InSight mission seismic data**  
-[A. Siahkoohi]{.underline}, R. Morel, R. Balestriero, E. Allys, G. Sainton, T. Kawamura, and M. V. de Hoop  
-2025.  
-[[pdf](https://arxiv.org/abs/2305.16189)]
-[[code](https://github.com/alisiahkoohi/facvae)]
-[[slides](https://www.dropbox.com/s/ycwu3y3jik33xpo/slides.pdf?dl=0)]
-[[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/SiahkoohiMorelBalestrieroEtAl_2025.bib)]
+**Hypernetwork-based approach for grid-independent functional data clustering**  
+A. Thatipelli and A. Siahkoohi  
+*Preprint arXiv:2602.22823*, 2026.  
+[[pdf](https://arxiv.org/abs/2602.22823)]
+[[code](https://github.com/luqigroup/hypercluster)]
+[[poster](https://www.dropbox.com/scl/fi/jimnf3ki4jevv8750vl5m/poster.pdf?rlkey=d6ejjvsz4mzw3y0zgo4cwibop&raw=1)]
+[[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/ThatipelliSiahkoohi_2026.bib)]
 
-**Improving fairness and mitigating MADness in generative models**  
-P. M. Mayer, L. Luzi, [A. Siahkoohi]{.underline}, D. H. Johnson, and R. G. Baraniuk  
-2024.  
-[[pdf](https://arxiv.org/abs/2405.13977)]
-[[code](https://github.com/alisiahkoohi/torchhyper)]
-[[slides](https://www.dropbox.com/scl/fi/5ajtqzg15vu4tpbqwc78d/slides.pdf?rlkey=zmdpkzht0o0ax9j9cu7y0aoir&st=l412imzl&dl=0)]
-[[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/MayerLuziSiahkoohiEtAl_2024.bib)]
+**Conditional neural control variates for variance reduction in Bayesian inverse problems**  
+A. Siahkoohi and Hyunwoo Oh  
+*Preprint arXiv:2602.21357*, 2026.  
+[[pdf](https://arxiv.org/abs/2602.21357)]
+[[code](https://github.com/luqigroup/cncv)]
+[[poster](https://www.dropbox.com/scl/fi/toe88cej4ir7isnlfzws9/poster.pdf?rlkey=8j86x0iv1wwlahsgkkeg38f8k&raw=1)]
+[[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/SiahkoohiOh_2026.bib)]
 
 ---
 
 ### Journal papers
 
+**Multi-scale clustering and source separation of InSight mission seismic data**  
+A. Siahkoohi, R. Morel, R. Balestriero, E. Allys, G. Sainton, T. Kawamura, and M. V. de Hoop  
+*IEEE Transactions on Geoscience and Remote Sensing*, 2026, In print.  
+[[pdf](https://arxiv.org/abs/2305.16189)]
+[[code](https://github.com/luqigroup/fvae)]
+[[slides](https://www.dropbox.com/s/ycwu3y3jik33xpo/slides.pdf?dl=0)]
+[[link](https://ieeexplore.ieee.org/document/11359307)]
+[[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/SiahkoohiMorelBalestrieroEtAl2026.bib)]
 
 **ASPIRE: Iterative amortized posterior inference for Bayesian inverse problems**  
-R. Orozco, [A. Siahkoohi]{.underline}, M. Louboutin, and F. J. Herrmann  
+R. Orozco, A. Siahkoohi, M. Louboutin, and F. J. Herrmann  
 *Inverse Problems*, 41(4):045001, 2025.  
 [[pdf](https://arxiv.org/abs/2405.05398)]
 [[code](https://github.com/slimgroup/ASPIRE.jl)]
@@ -98,7 +83,7 @@ R. Orozco, [A. Siahkoohi]{.underline}, M. Louboutin, and F. J. Herrmann
 
 
 **InvertibleNetworks.jl: A Julia package for scalable normalizing flows**  
-R. Orozco, P. Witte, M. Louboutin, [A. Siahkoohi]{.underline}, G. Rizzuti, B. Peters, and F. J. Herrmann  
+R. Orozco, P. Witte, M. Louboutin, A. Siahkoohi, G. Rizzuti, B. Peters, and F. J. Herrmann  
 *Journal of Open Source Software*, 9(99):6554, 2024.  
 [[pdf](https://www.theoj.org/joss-papers/joss.06554/10.21105.joss.06554.pdf)]
 [[code](https://github.com/slimgroup/InvertibleNetworks.jl)]
@@ -106,7 +91,7 @@ R. Orozco, P. Witte, M. Louboutin, [A. Siahkoohi]{.underline}, G. Rizzuti, B. Pe
 [[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/OrozcoWitteLouboutinEtAl_2024.bib)]
 
 **Boomerang: Local sampling on image manifolds using diffusion models**  
-L. Luzi, P. M. Mayer, J. Casco-Rodriguez, [A. Siahkoohi]{.underline}, and R. G. Baraniuk  
+L. Luzi, P. M. Mayer, J. Casco-Rodriguez, A. Siahkoohi, and R. G. Baraniuk  
 *Transactions on Machine Learning Research*, 2024.  
 [[pdf](https://openreview.net/pdf?id=NYdThkjNW1)]
 [[code](https://colab.research.google.com/drive/1PV5Z6b14HYZNx1lHCaEVhId-Y4baKXwt)]
@@ -114,7 +99,7 @@ L. Luzi, P. M. Mayer, J. Casco-Rodriguez, [A. Siahkoohi]{.underline}, and R. G. 
 [[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/LuziMayerCasco_RodriguezEtAl_2024.bib)]
 
 **Learned multiphysics inversion with differentiable programming and machine learning**  
-M. Louboutin, Z. Yin, R. Orozco, T. J. Grady II, [A. Siahkoohi]{.underline}, G. Rizzuti, P. A. Witte, O. Møyner, G. J. Gorman, and F. J. Herrmann  
+M. Louboutin, Z. Yin, R. Orozco, T. J. Grady II, A. Siahkoohi, G. Rizzuti, P. A. Witte, O. Møyner, G. J. Gorman, and F. J. Herrmann  
 *The Leading Edge*, 42(7):474--486, 2023.  
 [[pdf](https://slim.gatech.edu/Publications/Public/Journals/TheLeadingEdge/2023/louboutin2023lmi/le_software.pdf)]
 [[link](https://library.seg.org/doi/10.1190/tle42070474.1)]
@@ -122,14 +107,14 @@ M. Louboutin, Z. Yin, R. Orozco, T. J. Grady II, [A. Siahkoohi]{.underline}, G. 
 [featured in [Seismic Soundoff](https://seg.org/podcasts/episode-194-improving-integration-in-machine-learning-workflows/)]
 
 **Optimized time-lapse acquisition design via spectral gap ratio minimization**  
-Y. Zhang, Z. Yin, O. López, [A. Siahkoohi]{.underline}, M. Louboutin, R. Kumar, and F. J. Herrmann  
+Y. Zhang, Z. Yin, O. López, A. Siahkoohi, M. Louboutin, R. Kumar, and F. J. Herrmann  
 *Geophysics*, 88(4):A19--A23, 2023.  
 [[pdf](https://arxiv.org/abs/2302.01534)]
 [[link](https://library.seg.org/doi/10.1190/geo2023-0024.1)]
 [[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/ZhangYinLopezEtAl_2023b.bib)]
 
 **Reliable amortized variational inference with physics-based latent distribution correction**  
-[A. Siahkoohi]{.underline}, G. Rizzuti, R. Orozco, and F. J. Herrmann  
+A. Siahkoohi, G. Rizzuti, R. Orozco, and F. J. Herrmann  
 *Geophysics*, 88(3):R297--R322, 2023.  
 [[pdf](https://arxiv.org/abs/2207.11640)]
 [[slides](https://slim.gatech.edu/Publications/Public/Conferences/SEG/2022/siahkoohi2022SEGWSrav/Thur-15-55-Siahkoohi.pdf)]
@@ -139,7 +124,7 @@ Y. Zhang, Z. Yin, O. López, [A. Siahkoohi]{.underline}, M. Louboutin, R. Kumar,
 [featured in [Geophysics Bright Spots](https://library.seg.org/doi/10.1190/tle42080572.1)]
 
 **Deep Bayesian inference for seismic imaging with tasks**  
-[A. Siahkoohi]{.underline}, G. Rizzuti, and F. J. Herrmann  
+A. Siahkoohi, G. Rizzuti, and F. J. Herrmann  
 *Geophysics*,  87(5):S281--S302, 2022.  
 [[pdf](https://arxiv.org/abs/2110.04825)]
 [[code](https://github.com/slimgroup/dp4imaging)]
@@ -147,7 +132,7 @@ Y. Zhang, Z. Yin, O. López, [A. Siahkoohi]{.underline}, M. Louboutin, R. Kumar,
 [[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/SiahkoohiRizzutiHerrmann_2022.bib)]
 
 **The importance of transfer learning in seismic modeling and imaging**  
-[A. Siahkoohi]{.underline}, M. Louboutin, and F. J. Herrmann  
+A. Siahkoohi, M. Louboutin, and F. J. Herrmann  
 *Geophysics*,  84(6):A47--A52, 2019.  
 [[pdf](https://slim.gatech.edu/Publications/Public/Journals/Geophysics/2019/siahkoohi2019itl/siahkoohi2019itl.pdf)]
 [[code](https://github.com/alisiahkoohi/importance-of-transfer-learning)]
@@ -159,7 +144,7 @@ Y. Zhang, Z. Yin, O. López, [A. Siahkoohi]{.underline}, M. Louboutin, R. Kumar,
 ### Conference proceedings and presentations
 
 **Self-consuming generative models go MAD**  
-S. Alemohammad, J. Casco-Rodriguez, L. Luzi, A. I. Humayun, H. Babaei, D. LeJeune, [A. Siahkoohi]{.underline}, and R. G. Baraniuk  
+S. Alemohammad, J. Casco-Rodriguez, L. Luzi, A. I. Humayun, H. Babaei, D. LeJeune, A. Siahkoohi, and R. G. Baraniuk  
 *The Twelfth International Conference on Learning Representations*, 2024.  
 [[pdf](https://openreview.net/pdf?id=ShjMHfmPs0)]
 [[extended pdf](https://arxiv.org/abs/2307.01850)]
@@ -182,9 +167,8 @@ S. Alemohammad, J. Casco-Rodriguez, L. Luzi, A. I. Humayun, H. Babaei, D. LeJeun
 ^[13](https://magazine.rice.edu/winter-2025/ais-mad-loops)^]  
 [[self-consuming AI resources](https://dsp.rice.edu/ai-loops/)]
 
-
 **Titan: Bringing the deep image prior to implicit representations**  
-L. Luzi, D. LeJeune, [A. Siahkoohi]{.underline}, S. Alemohammad, V. Saragadam, H. Babaei, N. Liu, Z. Wang, and R. G. Baraniuk  
+L. Luzi, D. LeJeune, A. Siahkoohi, S. Alemohammad, V. Saragadam, H. Babaei, N. Liu, Z. Wang, and R. G. Baraniuk  
 *IEEE International Conference on Acoustics, Speech and Signal Processing*, pages 6165--6169, 2024.  
 [[pdf](https://arxiv.org/abs/2211.00219)]
 [[code](https://github.com/dlej/titan-implicit-prior)]
@@ -192,7 +176,7 @@ L. Luzi, D. LeJeune, [A. Siahkoohi]{.underline}, S. Alemohammad, V. Saragadam, H
 [[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/LuziLeJeuneSiahkoohiEtAl_2024.bib)]
 
 **Conditional score-based diffusion models for Bayesian inference in infinite dimensions**  
-L. Baldassari, [A. Siahkoohi]{.underline}, J. Garnier, K. Sølna, and M. V. de Hoop  
+L. Baldassari, A. Siahkoohi, J. Garnier, K. Sølna, and M. V. de Hoop  
 *Advances in Neural Information Processing Systems*, volume 36, pages 24262--24290, 2023.  
 [[pdf](https://papers.nips.cc/paper_files/paper/2023/file/4c79c359b3c5f077c0b955f93cb0f53e-Paper-Conference.pdf)]
 [[slides](https://www.dropbox.com/scl/fi/bmgnbex0zcf575fjgzybu/slides.pdf?rlkey=2rd9nhc4a6tt8s65lk5sqbz2r&dl=0)]
@@ -202,7 +186,7 @@ L. Baldassari, [A. Siahkoohi]{.underline}, J. Garnier, K. Sølna, and M. V. de H
 [[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/BaldassariSiahkoohiGarnierEtAl_2023.bib)] [featured as a [Spotlight presentation](https://nips.cc/virtual/2023/events/spotlight-posters-2023)]
 
 **Unearthing InSights into Mars: Unsupervised source separation with limited data**  
-[A. Siahkoohi]{.underline}, R. Morel, M. V. de Hoop, E. Allys, G. Sainton, and T. Kawamura  
+A. Siahkoohi, R. Morel, M. V. de Hoop, E. Allys, G. Sainton, and T. Kawamura  
 *Proceedings of the 40th International Conference on Machine Learning*, volume 202, pages 31754--31772, 2023.  
 [[pdf](https://proceedings.mlr.press/v202/siahkoohi23a/siahkoohi23a.pdf)]
 [[slides](https://www.dropbox.com/scl/fi/k5fmfp4cs97u5he3niowa/slides.pdf?rlkey=m6rmkye7c8bmrxx5upqzs20nk&dl=0)]
@@ -212,28 +196,28 @@ L. Baldassari, [A. Siahkoohi]{.underline}, J. Garnier, K. Sølna, and M. V. de H
 [[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/SiahkoohiMorelHoopEtAl_2023.bib)]
 
 **Amortized normalizing flows for transcranial ultrasound with uncertainty quantification**  
-R. Orozco, M. Louboutin, [A. Siahkoohi]{.underline}, G. Rizzuti, T. van Leeuwen, and F. J. Herrmann  
+R. Orozco, M. Louboutin, A. Siahkoohi, G. Rizzuti, T. van Leeuwen, and F. J. Herrmann  
 *Medical Imaging with Deep Learning*, volume 227, pages 332--349, 2023.  
 [[pdf](https://proceedings.mlr.press/v227/orozco24a/orozco24a.pdf)]
 [[link](https://proceedings.mlr.press/v227/orozco24a.html)]
 [[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/OrozcoLouboutinSiahkoohiEtAl_2023.bib)]
 
 **Refining amortized posterior approximations using gradient-based summary statistics**  
-R. Orozco, [A. Siahkoohi]{.underline}, M. Louboutin, and F. J. Herrmann  
+R. Orozco, A. Siahkoohi, M. Louboutin, and F. J. Herrmann  
 *5th Symposium on Advances in Approximate Bayesian Inference*, 2023.  
 [[pdf](https://openreview.net/forum?id=3ukmQJ8Ky2N)]
 [[link](https://approximateinference.org/2023/accepted/index.html)]
 [[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/OrozcoSiahkoohiLouboutinEtAl_2023.bib)]
 
 **Adjoint operators enable fast and amortized machine learning based Bayesian uncertainty quantification**  
-R. Orozco, [A. Siahkoohi]{.underline}, G. Rizzuti, T. van Leeuwen, and F. J. Herrmann  
+R. Orozco, A. Siahkoohi, G. Rizzuti, T. van Leeuwen, and F. J. Herrmann  
 *Medical Imaging 2023: Image Processing*, volume 12464, page 124641L, 2023.  
 [[pdf](https://slim.gatech.edu/Publications/Public/Conferences/SPIE/2023/orozco2022SPIEadjoint/SPIE_2022_adjoint.pdf)]
 [[link](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12464/124641L/Adjoint-operators-enable-fast-and-amortized-machine-learning-based-Bayesian/10.1117/12.2651691.short)]
 [[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/OrozcoSiahkoohiRizzutiEtAl_2023.bib)]
 
 **Learned one-shot imaging**  
-M. Louboutin, R. Orozco, [A. Siahkoohi]{.underline}, and F. J. Herrmann  
+M. Louboutin, R. Orozco, A. Siahkoohi, and F. J. Herrmann  
 *Third International Meeting for Applied Geoscience \& Energy*, 2023.  
 [[html](https://slimgroup.github.io/IMAGE2023/OneShot/abstract.html)]
 [[poster](https://slim.gatech.edu/Publications/Public/Conferences/SEG/2023/louboutin2023IMAGEloi/louboutin2023IMAGEloi_pres.pdf)]
@@ -241,21 +225,21 @@ M. Louboutin, R. Orozco, [A. Siahkoohi]{.underline}, and F. J. Herrmann
 [[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/OrozcoSiahkoohiRizzutiEtAl_2023.bib)]
 
 **3D seismic survey design by maximizing the spectral gap**  
-Y. Zhang, Z. Yin, O. Lopez, [A. Siahkoohi]{.underline}, M. Louboutin, and F. J. Herrmann  
+Y. Zhang, Z. Yin, O. Lopez, A. Siahkoohi, M. Louboutin, and F. J. Herrmann  
 *Third International Meeting for Applied Geoscience \& Energy*, 2023.  
 [[pdf](https://arxiv.org/abs/2311.02298)]
 [[poster](https://slim.gatech.edu/Publications/Public/Conferences/SEG/2023/zhang2023IMAGEssd/zhang2023IMAGEssd_pres.pdf)]
 [[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/ZhangYinLopezEtAl_2023.bib)]
 
 **Ultra-low-bitrate speech coding with pretrained Transformers**  
-[A. Siahkoohi]{.underline}, M. Chinen, T. Denton, W. B. Kleijn, and J. Skoglund  
+A. Siahkoohi, M. Chinen, T. Denton, W. B. Kleijn, and J. Skoglund  
 *Proceedings of Interspeech*, pages 4421--4425, 2022.  
 [[pdf](https://www.isca-archive.org/interspeech_2022/siahkoohi22_interspeech.pdf)]
 [[link](https://www.isca-archive.org/interspeech_2022/siahkoohi22_interspeech.html)]
 [[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/SiahkoohiChinenDentonEtAl_2022.bib)]
 
 **Velocity continuation with Fourier neural operators for accelerated uncertainty quantification**  
-[A. Siahkoohi]{.underline}, M. Louboutin, and F. J. Herrmann  
+A. Siahkoohi, M. Louboutin, and F. J. Herrmann  
 *Society of Exploration Geophysicists Technical Program Expanded Abstracts*, pages 1765--1769, 2022.  
 [[pdf](https://arxiv.org/abs/2203.14386)]
 [[slides](https://slim.gatech.edu/Publications/Public/Conferences/SEG/2022/siahkoohi2022SEGvcw/Tue-16-30-Siahkoohi.pdf)]
@@ -264,7 +248,7 @@ Y. Zhang, Z. Yin, O. Lopez, [A. Siahkoohi]{.underline}, M. Louboutin, and F. J. 
 [[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/SiahkoohiLouboutinHerrmann_2022.bib)]
 
 **Accelerating innovation with software abstractions for scalable computational geophysics**  
-M. Louboutin, P. Witte, [A. Siahkoohi]{.underline}, G. Rizzuti, Z. Yin, R. Orozco, and F. J. Herrmann  
+M. Louboutin, P. Witte, A. Siahkoohi, G. Rizzuti, Z. Yin, R. Orozco, and F. J. Herrmann  
 *Society of Exploration Geophysicists Technical Program Expanded Abstracts*, pages 1482--1486, 2022.  
 [[pdf](https://arxiv.org/abs/2203.15038)]
 [[slides](https://slim.gatech.edu/Publications/Public/Conferences/SEG/2022/louboutin2022SEGais/index.html)]
@@ -272,7 +256,7 @@ M. Louboutin, P. Witte, [A. Siahkoohi]{.underline}, G. Rizzuti, Z. Yin, R. Orozc
 [[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/LouboutinWitteSiahkoohiEtAl_2022.bib)]
 
 **Learned coupled inversion for carbon sequestration monitoring and forecasting with Fourier neural operators**  
-Z. Yin, [A. Siahkoohi]{.underline}, M. Louboutin, and F. J. Herrmann  
+Z. Yin, A. Siahkoohi, M. Louboutin, and F. J. Herrmann  
 *Society of Exploration Geophysicists Technical Program Expanded Abstracts*, pages 467--472, 2022.  
 [[pdf](https://arxiv.org/abs/2203.14396)]
 [[slides](https://slim.gatech.edu/Publications/Public/Conferences/SEG/2022/yin2022SEGlci/index.html)]
@@ -281,7 +265,7 @@ Z. Yin, [A. Siahkoohi]{.underline}, M. Louboutin, and F. J. Herrmann
 [[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/YinSiahkoohiLouboutinEtAl_2022.bib)]
 
 **A simulation-free seismic survey design by maximizing the spectral gap**  
-Y. Zhang, M. Louboutin, [A. Siahkoohi]{.underline}, Z. Yin, R. Kumar, and F. J. Herrmann  
+Y. Zhang, M. Louboutin, A. Siahkoohi, Z. Yin, R. Kumar, and F. J. Herrmann  
 *Society of Exploration Geophysicists Technical Program Expanded Abstracts*, pages 15--20, 2022.  
 [[pdf](https://arxiv.org/abs/2204.02801)]
 [[slides](https://slim.gatech.edu/Publications/Public/Conferences/SEG/2022/zhang2022SEGass/index.html)]
@@ -290,7 +274,7 @@ Y. Zhang, M. Louboutin, [A. Siahkoohi]{.underline}, Z. Yin, R. Kumar, and F. J. 
 [[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/ZhangLouboutinSiahkoohiEtAl_2022.bib)]
 
 **Wave-equation based inversion with amortized variational bayesian inference**  
-[A. Siahkoohi]{.underline}, R. Orozco, G. Rizzuti, and F. J. Herrmann  
+A. Siahkoohi, R. Orozco, G. Rizzuti, and F. J. Herrmann  
 *EAGE Workshop on Deep Learning for Seismic Processing: Investigating the Foundations*, 2022.  
 [[pdf](https://arxiv.org/abs/2203.15881)]
 [[slides](https://www.dropbox.com/s/b7jmu793u2bcale/slides.pdf?dl=0)]
@@ -299,7 +283,7 @@ Y. Zhang, M. Louboutin, [A. Siahkoohi]{.underline}, Z. Yin, R. Kumar, and F. J. 
 [[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/SiahkoohiOrozcoRizzutiEtAl_2022.bib)]
 
 **Photoacoustic imaging with conditional priors from normalizing flows**  
-R. Orozco, [A. Siahkoohi]{.underline}, G. Rizzuti, T. van Leeuwen, and F. J. Herrmann  
+R. Orozco, A. Siahkoohi, G. Rizzuti, T. van Leeuwen, and F. J. Herrmann  
 *Neural Information Processing Systems Workshop on Deep Learning and Inverse Problems*, 2021.  
 [[pdf](https://openreview.net/pdf?id=woi1OTvROO1)]
 [[poster](https://slim.gatech.edu/Publications/Public/Conferences/NIPS/2021/orozco2021NIPSpicp/posterneurips2021_orozco.pdf)]
@@ -307,7 +291,7 @@ R. Orozco, [A. Siahkoohi]{.underline}, G. Rizzuti, T. van Leeuwen, and F. J. Her
 [[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/OrozcoSiahkoohiRizzutiEtAl_2021.bib)]
 
 **Preconditioned training of normalizing flows for variational inference in inverse problems**  
-[A. Siahkoohi]{.underline}, G. Rizzuti, M. Louboutin, P. Witte, and F. J. Herrmann  
+A. Siahkoohi, G. Rizzuti, M. Louboutin, P. Witte, and F. J. Herrmann  
 *3rd Symposium on Advances in Approximate Bayesian Inference*, 2021.  
 [[pdf](https://openreview.net/forum?id=P9m1sMaNQ8T)]
 [[slides](https://slim.gatech.edu/Publications/Public/Conferences/AABI/2021/siahkoohi2021AABIpto/siahkoohi2021AABIpto_pres.pdf)]
@@ -316,7 +300,7 @@ R. Orozco, [A. Siahkoohi]{.underline}, G. Rizzuti, T. van Leeuwen, and F. J. Her
 [[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/SiahkoohiRizzutiLouboutinEtAl_2021.bib)]
 
 **Learning by example: Fast reliability-aware seismic imaging with normalizing flows**  
-[A. Siahkoohi]{.underline} and F. J. Herrmann  
+A. Siahkoohi and F. J. Herrmann  
 *Society of Exploration Geophysicists Technical Program Expanded Abstracts*, pages 1580--1585, 2021.  
 [[pdf](https://arxiv.org/abs/2104.06255)]
 [[slides](https://slim.gatech.edu/Publications/Public/Conferences/SEG/2021/siahkoohi2021SEGlbe/Tue-09-15-siahkoohi.pdf)]
@@ -325,7 +309,7 @@ R. Orozco, [A. Siahkoohi]{.underline}, G. Rizzuti, T. van Leeuwen, and F. J. Her
 [[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/SiahkoohiHerrmann_2021.bib)]
 
 **Enabling uncertainty quantification for seismic data preprocessing using normalizing flows (NF)---An interpolation example**  
-R. Kumar, M. Kotsi, [A. Siahkoohi]{.underline}, and A. Malcolm  
+R. Kumar, M. Kotsi, A. Siahkoohi, and A. Malcolm  
 *Society of Exploration Geophysicists Technical Program Expanded Abstracts*, pages 1515--1519, 2021.  
 [[pdf](https://slim.gatech.edu/Publications/Public/Conferences/SEG/2021/kumar2021SEGeuq/kumar2021SEGeuq.pdf)]
 [[code](https://github.com/slimgroup/Software.SEG2021/tree/main/WavefieldRecoveryUQ.jl)]
@@ -333,7 +317,7 @@ R. Kumar, M. Kotsi, [A. Siahkoohi]{.underline}, and A. Malcolm
 [[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/KumarKotsiSiahkoohiEtAl_2021.bib)]
 
 **Parameterizing uncertainty by deep invertible networks, an application to reservoir characterization**  
-G. Rizzuti, [A. Siahkoohi]{.underline}, P. A. Witte, and F. J. Herrmann  
+G. Rizzuti, A. Siahkoohi, P. A. Witte, and F. J. Herrmann  
 *Society of Exploration Geophysicists Technical Program Expanded Abstracts*, pages 1541--1545, 2020.  
 [[pdf](https://arxiv.org/abs/2004.07871)]
 [[slides](https://slim.gatech.edu/Publications/Public/Conferences/SEG/2020/rizzuti2020SEGuqavp/rizzuti2020SEGuqavp_pres.pdf)]
@@ -342,7 +326,7 @@ G. Rizzuti, [A. Siahkoohi]{.underline}, P. A. Witte, and F. J. Herrmann
 [[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/RizzutiSiahkoohiWitteEtAl_2020.bib)]
 
 **Transfer learning in large-scale ocean bottom seismic wavefield reconstruction**  
-M. Zhang, [A. Siahkoohi]{.underline}, and F. J. Herrmann  
+M. Zhang, A. Siahkoohi, and F. J. Herrmann  
 *Society of Exploration Geophysicists Technical Program Expanded Abstracts*, pages 1666--1670, 2020.  
 [[pdf](https://arxiv.org/abs/2004.07388)]
 [[slides](https://slim.gatech.edu/Publications/Public/Conferences/SEG/2020/zhang2020SEGtli/zhang2020SEGtli_pres.pdf)]
@@ -351,7 +335,7 @@ M. Zhang, [A. Siahkoohi]{.underline}, and F. J. Herrmann
 [[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/ZhangSiahkoohiHerrmann_2020.bib)]
 
 **Weak deep priors for seismic imaging**  
-[A. Siahkoohi]{.underline}, G. Rizzuti, and F. J. Herrmann  
+A. Siahkoohi, G. Rizzuti, and F. J. Herrmann  
 *Society of Exploration Geophysicists Technical Program Expanded Abstracts*, pages 2998--3002, 2020.  
 [[pdf](https://arxiv.org/abs/2004.06835)]
 [[slides](https://slim.gatech.edu/Publications/Public/Conferences/SEG/2020/siahkoohi2020SEGwdp/siahkoohi2020SEGwdp_pres.pdf)]
@@ -360,7 +344,7 @@ M. Zhang, [A. Siahkoohi]{.underline}, and F. J. Herrmann
 [[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/SiahkoohiRizzutiHerrmann_2020c.bib)]
 
 **Uncertainty quantification in imaging and automatic horizon tracking---a Bayesian deep-prior based approach**  
-[A. Siahkoohi]{.underline}, G. Rizzuti, and F. J. Herrmann  
+A. Siahkoohi, G. Rizzuti, and F. J. Herrmann  
 *Society of Exploration Geophysicists Technical Program Expanded Abstracts*, pages 1636--1640, 2020.  
 [[pdf](https://arxiv.org/abs/2004.00227)]
 [[slides](https://slim.gatech.edu/Publications/Public/Conferences/SEG/2020/siahkoohi2020SEGuqi/siahkoohi2020SEGuqi_pres.pdf)]
@@ -369,7 +353,7 @@ M. Zhang, [A. Siahkoohi]{.underline}, and F. J. Herrmann
 [[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/SiahkoohiRizzutiHerrmann_2020b.bib)]
 
 **A deep-learning based Bayesian approach to seismic imaging and uncertainty quantification**  
-[A. Siahkoohi]{.underline}, G. Rizzuti, and F. J. Herrmann  
+A. Siahkoohi, G. Rizzuti, and F. J. Herrmann  
 *European Association of Geoscientists \& Engineers Conference and Exhibition Extended Abstracts*, 2020.  
 [[pdf](https://arxiv.org/abs/2001.04567)]
 [[slides](https://www.dropbox.com/s/yd7mywyjlfbr2sc/slides.pdf?dl=0)]
@@ -378,7 +362,7 @@ M. Zhang, [A. Siahkoohi]{.underline}, and F. J. Herrmann
 [[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/SiahkoohiRizzutiHerrmann_2020a.bib)]
 
 **Learned imaging with constraints and uncertainty quantification**  
-F. J. Herrmann, [A. Siahkoohi]{.underline}, and G. Rizzuti  
+F. J. Herrmann, A. Siahkoohi, and G. Rizzuti  
 *Neural Information Processing Systems Deep Inverse Workshop*, 2019.  
 [[pdf](https://openreview.net/pdf?id=Hyet2Q29IS)]
 [[slides](https://slim.gatech.edu/Publications/Public/Lectures/HotCSE/2019/herrmann2019HOTCSEliwcuq/herrmann2019HOTCSEliwcuq.pdf)]
@@ -387,7 +371,7 @@ F. J. Herrmann, [A. Siahkoohi]{.underline}, and G. Rizzuti
 [[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/HerrmannSiahkoohiRizzuti_2019.bib)]
 
 **Deep-learning based ocean bottom seismic wavefield recovery**  
-[A. Siahkoohi]{.underline}, R. Kumar, and F. J. Herrmann  
+A. Siahkoohi, R. Kumar, and F. J. Herrmann  
 *Society of Exploration Geophysicists Technical Program Expanded Abstracts*, pages 2232--2237, 2019.  
 [[pdf](https://slim.gatech.edu/Publications/Public/Conferences/SEG/2019/siahkoohi2019SEGdlb/siahkoohi2019SEGdlb.pdf)]
 [[TensorFlow code](https://github.com/alisiahkoohi/wavefield-reconstruction)]
@@ -397,7 +381,7 @@ F. J. Herrmann, [A. Siahkoohi]{.underline}, and G. Rizzuti
 [[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/SiahkoohiKumarHerrmann_2019.bib)]
 
 **Surface-related multiple elimination with deep learning**  
-[A. Siahkoohi]{.underline}, D. J. Verschuur, and F. J. Herrmann  
+A. Siahkoohi, D. J. Verschuur, and F. J. Herrmann  
 *Society of Exploration Geophysicists Technical Program Expanded Abstracts*, pages 4629--4634, 2019.  
 [[pdf](https://slim.gatech.edu/Publications/Public/Conferences/SEG/2019/siahkoohi2019SEGsrm/siahkoohi2019SEGsrm.pdf)]
 [[slides](https://slim.gatech.edu/Publications/Public/Conferences/SEG/2019/siahkoohi2019SEGsrm/siahkoohi2019SEGsrm_pres.pdf)]
@@ -405,7 +389,7 @@ F. J. Herrmann, [A. Siahkoohi]{.underline}, and G. Rizzuti
 [[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/SiahkoohiVerschuurHerrmann_2019.bib)]
 
 **Learned iterative solvers for the Helmholtz equation**  
-G. Rizzuti, [A. Siahkoohi]{.underline}, and F. J. Herrmann  
+G. Rizzuti, A. Siahkoohi, and F. J. Herrmann  
 *European Association of Geoscientists \& Engineers Conference and Exhibition Extended Abstracts*, 2019.  
 [[pdf](https://slim.gatech.edu/Publications/Public/Conferences/EAGE/2019/rizzuti2019EAGElis/rizzuti2019EAGElis.pdf)]
 [[slides](https://slim.gatech.edu/Publications/Public/Conferences/EAGE/2019/rizzuti2019EAGElis/rizzuti2019EAGElis_pres.pdf)]
@@ -413,7 +397,7 @@ G. Rizzuti, [A. Siahkoohi]{.underline}, and F. J. Herrmann
 [[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/RizzutiSiahkoohiHerrmann_2019.bib)]
 
 **Deep convolutional neural networks in prestack seismic---two exploratory examples**  
-[A. Siahkoohi]{.underline}, M. Louboutin, R. Kumar, and F. J. Herrmann  
+A. Siahkoohi, M. Louboutin, R. Kumar, and F. J. Herrmann  
 *Society of Exploration Geophysicists Technical Program Expanded Abstracts*, pages 2196--2200, 2018.  
 [[pdf](https://slim.gatech.edu/Publications/Public/Conferences/SEG/2018/siahkoohi2018SEGcnn/siahkoohi2018SEGcnn.pdf)]
 [[poster](https://slim.gatech.edu/Publications/Public/Conferences/SEG/2018/siahkoohi2018SEGcnn/siahkoohi2018SEGcnn_pres.pdf)]
@@ -421,7 +405,7 @@ G. Rizzuti, [A. Siahkoohi]{.underline}, and F. J. Herrmann
 [[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/SiahkoohiLouboutinKumarEtAl_2018.bib)]
 
 **Seismic data reconstruction with generative adversarial networks**  
-[A. Siahkoohi]{.underline}, R. Kumar, and F. J. Herrmann  
+A. Siahkoohi, R. Kumar, and F. J. Herrmann  
 *European Association of Geoscientists \& Engineers Conference and Exhibition Extended Abstracts*, 2018.  
 [[pdf](https://slim.gatech.edu/Publications/Public/Conferences/EAGE/2018/siahkoohi2018EAGEsdr/siahkoohi2018EAGEsdr.pdf)]
 [[slides](https://slim.gatech.edu/Publications/Public/Conferences/EAGE/2018/siahkoohi2018EAGEsdr/siahkoohi2018EAGEsdr_pres.pdf)]
@@ -429,21 +413,21 @@ G. Rizzuti, [A. Siahkoohi]{.underline}, and F. J. Herrmann
 [[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/SiahkoohiKumarHerrmann_2018.bib)]
 
 **Sparsity promoting least squares migration for laterally inhomogeneous media**  
-[A. Siahkoohi]{.underline} and A. Gholami  
+A. Siahkoohi and A. Gholami  
 *7th EAGE Saint Petersburg International Conference and Exhibition*, 2016.  
 [[pdf](./files/84208.pdf)]
 [[link](https://earthdoc.eage.org/publication/publicationdetails/?publication=84208)]
 [[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/SiahkoohiGholami_2016.bib)]
 
 **A novel utilization of wireless sensor networks as data acquisition system in smart grids**  
-M. S. Ebrahimi, M. H. Daraei, J. Rezaei, and [A. Siahkoohi]{.underline}  
+M. S. Ebrahimi, M. H. Daraei, J. Rezaei, and A. Siahkoohi  
 *International Conference on Materials Science and Information Technology*, volume 433-440, pages 6725--6730, 2012.  
 [[link](https://www.scientific.net/AMR.433-440.6725.pdf?casa_token=tE-TNCrNU3wAAAAA:HI50WWmEsDMJwheJ4KWDZAcZwmbJz0k_9geUtnY3YuYGsN1X8HAEq8p8JmyoY9qj4YFZqFy8)]
 [[link](https://www.scientific.net/AMR.433-440.6725)]
 [[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/EbrahimiDaraeiRezaeiEtAl_2012.bib)]
 
 **A content-based digital image watermarking algorithm robust against JPEG compression**  
-A. Najafi, [A. Siahkoohi]{.underline}, and M. B. Shamsollahi  
+A. Najafi, A. Siahkoohi, and M. B. Shamsollahi  
 *IEEE International Symposium on Signal Processing and Information Technology*, pages 432--437, 2011.  
 [[pdf](./files/6151601.pdf)]
 [[link](https://ieeexplore.ieee.org/document/6151601/)]
@@ -454,7 +438,7 @@ A. Najafi, [A. Siahkoohi]{.underline}, and M. B. Shamsollahi
 ### Thesis
 
 **Deep generative models for solving geophysical inverse problems**  
-[A. Siahkoohi]{.underline}  
+A. Siahkoohi  
 *Ph.D. thesis*, Georgia Institute of Technology, 2022.  
 [[pdf](https://slim.gatech.edu/Publications/Public/Thesis/2022/siahkoohi2022THdgmf/siahkoohi2022THdgmf.pdf)]
 [[slides](https://slim.gatech.edu/Publications/Public/Thesis/2022/siahkoohi2022THdgmf/siahkoohi2022THdgmf_pres.pdf)]
@@ -465,14 +449,22 @@ A. Najafi, [A. Siahkoohi]{.underline}, and M. B. Shamsollahi
 
 ### Technical reports
 
+**Improving fairness and mitigating MADness in generative models**  
+P. M. Mayer, L. Luzi, A. Siahkoohi, D. H. Johnson, and R. G. Baraniuk  
+Technical Report arXiv:2405.13977, Rice University, 2024.  
+[[pdf](https://arxiv.org/abs/2405.13977)]
+[[code](https://github.com/alisiahkoohi/torchhyper)]
+[[slides](https://www.dropbox.com/scl/fi/5ajtqzg15vu4tpbqwc78d/slides.pdf?rlkey=zmdpkzht0o0ax9j9cu7y0aoir&st=l412imzl&dl=0)]
+[[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/MayerLuziSiahkoohiEtAl_2024.bib)]
+
 **Taming score-based diffusion priors for infinite-dimensional nonlinear inverse problems**  
-L. Baldassari, [A. Siahkoohi]{.underline}, J. Garnier, K. Sølna, and M. V. de Hoop  
+L. Baldassari, A. Siahkoohi, J. Garnier, K. Sølna, and M. V. de Hoop  
 Technical Report arXiv:2405.15676, Rice University, 2024.  
 [[pdf](https://arxiv.org/abs/2405.15676)]
 [[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/BaldassariSiahkoohiGarnierEtAl_2024.bib)]
 
 **Low-memory stochastic backpropagation with multi-channel randomized trace estimation**  
-M. Louboutin, [A. Siahkoohi]{.underline}, R. Wang, and F. J. Herrmann  
+M. Louboutin, A. Siahkoohi, R. Wang, and F. J. Herrmann  
 Technical Report arXiv:2106.06998, Georgia Institute of Technology, 2021.  
 [[pdf](https://arxiv.org/abs/2106.06998)]
 [[code](https://github.com/slimgroup/XConv)]
@@ -480,14 +472,14 @@ Technical Report arXiv:2106.06998, Georgia Institute of Technology, 2021.
 [[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/LouboutinSiahkoohiWangEtAl_2021.bib)]
 
 **Faster uncertainty quantification for inverse problems with conditional normalizing flows**  
-[A. Siahkoohi]{.underline}, G. Rizzuti, P. A. Witte, and F. J. Herrmann  
+A. Siahkoohi, G. Rizzuti, P. A. Witte, and F. J. Herrmann  
 Technical Report arXiv:2007.07985, Georgia Institute of Technology, 2020.  
 [[pdf](https://arxiv.org/abs/2007.07985.pdf)]
 [[link](https://slim.gatech.edu/content/faster-uncertainty-quantification-inverse-problems-conditional-normalizing-flows)]
 [[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/SiahkoohiRizzutiWitteEtAl_2020.bib)]
 
 **Neural network augmented wave-equation simulation**  
-[A. Siahkoohi]{.underline}, M. Louboutin, and F. J. Herrmann  
+A. Siahkoohi, M. Louboutin, and F. J. Herrmann  
 Technical Report arXiv:1910.00925, Georgia Institute of Technology, 2019.  
 [[pdf](https://arxiv.org/abs/1910.00925)]
 [[code](https://github.com/alisiahkoohi/NN-augmented-wave-sim)]
@@ -496,6 +488,6 @@ Technical Report arXiv:1910.00925, Georgia Institute of Technology, 2019.
 
 ## Miscellaneous
 
-"I wish you hadn't talked so much, it was distracting." --- Patrick Winston, [How to Speak](https://youtu.be/Unzc731iCUY)
-
-"No one cares about the inside of your head." --- Larry McEnerney, [The Craft of Writing Effectively](https://youtu.be/vtIzMaLkCaM)
+- "I wish you hadn't talked so much, it was distracting." --- Patrick Winston, [How to Speak](https://youtu.be/Unzc731iCUY)
+- "No one cares about the inside of your head." --- Larry McEnerney, [The Craft of Writing Effectively](https://youtu.be/vtIzMaLkCaM)
+- "Efficiency does not guarantee optimality." --- Moshe Vardi, [Lessons from Texas, COVID-19, and the 737 Max: Efficiency vs. Resilience](https://youtu.be/kr_OjwW59ug?si=jXMWeZeuMQkvrLKu)
