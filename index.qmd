@@ -3,11 +3,11 @@ title: Ali Siahkoohi
 subtitle: Assistant Professor
 description: |
   [[Laboratory for Uncertainty Quantification and Inference]{.underline}](https://luqigroup.github.io/) (LUQI)<br>
-  Departments of Computer Science and Electrical & Computer Engineering<br>
+  Department of Computer Science<br>
   University of Central Florida<br>
   Orlando, FL, USA
   
-  [[[alisk@ucf.edu]{.underline}](mailto:alisk@ucf.edu)] &ensp; [[[CV]{.underline}](./files/AliSiahkoohi-CV.pdf)] &ensp; [[[GitHub]{.underline}](https://github.com/alisiahkoohi)] &ensp; [[[Google Scholar]{.underline}](https://scholar.google.com/citations?hl=en&user=sxRMqYIAAAAJ&view_op=list_works&sortby=pubdate)]
+  [[[GB 212]{.underline}](https://maps.app.goo.gl/sQDSjpikukU6ykPo9)] &ensp; [[[alisk@ucf.edu]{.underline}](mailto:alisk@ucf.edu)] &ensp; [[[CV]{.underline}](./files/AliSiahkoohi-CV.pdf)] &ensp; [[[GitHub]{.underline}](https://github.com/alisiahkoohi)] &ensp; [[[Google Scholar]{.underline}](https://scholar.google.com/citations?hl=en&user=sxRMqYIAAAAJ&view_op=list_works&sortby=pubdate)]
 
 navbar: false
 about:
@@ -20,7 +20,6 @@ about:
 
 :::{#heading}
 :::
-
 
 <!-- <div style="
   display: flex;
@@ -43,37 +42,39 @@ about:
   </span>
 </div> -->
 
+
+
+## Background
+
+**Assistant Professor** (2025--present)  
+University of Central Florida
+
+**Simons Postdoctoral Fellow** (2022--2025)  
+Rice University
+
+**Ph.D., Computational Science and Engineering** (2022)  
+Georgia Institute of Technology
+
+**M.Sc., Geophysics** (2016)  
+University of Tehran
+
+**B.Sc., Electrical Engineering** (2013)  
+Sharif University of Technology
+
+
+
 ## Research
 
-My research tackles **uncertainty quantification** in complex systems arising in computational science and engineering, with a focus on building **reliable, uncertainty-aware AI** systems. To this end, my team develops methods that leverage tools like **generative models, variational inference, and hypernetworks** to characterize uncertainty in complex models at scale, with implications for **large-scale, PDE-based inverse problems**.
+My research tackles uncertainty quantification in complex systems arising in computational science and engineering. My group's approach involves integrating generative modeling and scientific computing to develop scalable sampling techniques for high-dimensional distributions. This work enables Bayesian inference in large-scale PDE-based inverse problems (e.g., seismic and medical imaging) and provides a principled approach to designing reliable, uncertainty-aware AI models for real-world applications.
 
-## Education
-
-**Georgia Institute of Technology**, Atlanta, GA, USA  
-Ph.D., 2022, *Computational Science and Engineering*
-
-**University of Tehran**, Tehran, Iran  
-M.Sc., 2016, *Geophysics*
-
-**Sharif University of Technology**, Tehran, Iran  
-B.Sc., 2013, *Electrical Engineering*
 
 ## Teaching
 
-2025--2026
-: - [CAP 4611: Algorithms for Machine Learning](https://luqigroup.github.io/cap-4611/) (Fall 2025)
+[Algorithms for Machine Learning](https://luqigroup.github.io/cap-4611/) *(Fall 2025)*
 
 ## Publications
 
 ### Preprints
-
-**Multi-scale clustering and source separation of InSight mission seismic data**  
-[A. Siahkoohi]{.underline}, R. Morel, R. Balestriero, E. Allys, G. Sainton, T. Kawamura, and M. V. de Hoop  
-2025.  
-[[pdf](https://arxiv.org/abs/2305.16189)]
-[[code](https://github.com/alisiahkoohi/facvae)]
-[[slides](https://www.dropbox.com/s/ycwu3y3jik33xpo/slides.pdf?dl=0)]
-[[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/SiahkoohiMorelBalestrieroEtAl_2025.bib)]
 
 **Improving fairness and mitigating MADness in generative models**  
 P. M. Mayer, L. Luzi, [A. Siahkoohi]{.underline}, D. H. Johnson, and R. G. Baraniuk  
@@ -87,6 +88,13 @@ P. M. Mayer, L. Luzi, [A. Siahkoohi]{.underline}, D. H. Johnson, and R. G. Baran
 
 ### Journal papers
 
+**Multi-scale clustering and source separation of InSight mission seismic data**  
+[A. Siahkoohi]{.underline}, R. Morel, R. Balestriero, E. Allys, G. Sainton, T. Kawamura, and M. V. de Hoop  
+*IEEE Transactions on Geoscience and Remote Sensing*, 2025, In print.  
+[[pdf](https://arxiv.org/abs/2305.16189)]
+[[code](https://github.com/alisiahkoohi/facvae)]
+[[slides](https://www.dropbox.com/s/ycwu3y3jik33xpo/slides.pdf?dl=0)]
+[[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/SiahkoohiMorelBalestrieroEtAl_2025.bib)]
 
 **ASPIRE: Iterative amortized posterior inference for Bayesian inverse problems**  
 R. Orozco, [A. Siahkoohi]{.underline}, M. Louboutin, and F. J. Herrmann  
