@@ -4,14 +4,14 @@
     "href": "index.html#research",
     "title": "Ali Siahkoohi",
     "section": "Research",
-    "text": "Research\nMy research tackles uncertainty quantification in complex systems arising in computational science and engineering, with a focus on building reliable, uncertainty-aware AI systems. To this end, my team develops methods that leverage tools like generative models, variational inference, and hypernetworks to characterize uncertainty in complex models at scale, with implications for large-scale, PDE-based inverse problems."
+    "text": "Research\nMy research tackles uncertainty quantification in complex systems arising in computational science and engineering. My group’s approach involves integrating generative modeling and scientific computing to develop scalable sampling techniques for high-dimensional distributions. This work enables Bayesian inference in large-scale PDE-based inverse problems (e.g., seismic and medical imaging) and provides a principled approach to designing reliable, uncertainty-aware AI models for real-world applications."
   },
   {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
+    "objectID": "index.html#background",
+    "href": "index.html#background",
     "title": "Ali Siahkoohi",
-    "section": "Education",
-    "text": "Education\nGeorgia Institute of Technology, Atlanta, GA, USA\nPh.D., 2022, Computational Science and Engineering\nUniversity of Tehran, Tehran, Iran\nM.Sc., 2016, Geophysics\nSharif University of Technology, Tehran, Iran\nB.Sc., 2013, Electrical Engineering"
+    "section": "Background",
+    "text": "Background\n\nAssistant Porfessor, University of Central Florida (2025–present)\nSimons Postdoctoral Fellow, Rice University (2022–2025)\nPh.D., Georgia Institute of Technology, Computational Science and Engineering (2022)\nM.Sc., University of Tehran, Geophysics (2016)\nB.Sc., Sharif University of Technology, Electrical Engineering (2013)"
   },
   {
     "objectID": "index.html#teaching",
