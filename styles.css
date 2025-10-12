@@ -7,3 +7,9 @@ ul ul {
   padding-left: 0.5em;
 }
 
+a {
+  text-decoration: none;
+}
+a:hover, a:focus {
+  text-decoration: underline; /* optional: keep underline on hover */
+}
