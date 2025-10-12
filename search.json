@@ -11,7 +11,7 @@
     "href": "index.html#research",
     "title": "Ali Siahkoohi",
     "section": "Research",
-    "text": "Research\nMy research focuses on uncertainty quantification in complex systems that arise in computational science and engineering. My group integrates generative modeling with scientific computing to develop scalable sampling techniques for high-dimensional distributions. This work enables Bayesian inference in large-scale PDE-based inverse problems (e.g., seismic and medical imaging) and provides a principled framework for building reliable, uncertainty-aware AI models for real-world applications."
+    "text": "Research\nMy research focuses on uncertainty quantification in complex systems that arise in computational science and engineering. To this end, my group integrates generative modeling with scientific computing to develop scalable sampling techniques for high-dimensional distributions. This work enables Bayesian inference in large-scale PDE-based inverse problems (e.g., seismic and medical imaging) and provides a principled framework for building reliable, uncertainty-aware AI models for real-world applications."
   },
   {
     "objectID": "index.html#teaching",
