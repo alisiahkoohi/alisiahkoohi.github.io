@@ -4,21 +4,21 @@
     "href": "index.html#background",
     "title": "Ali Siahkoohi",
     "section": "Background",
-    "text": "Background\nAssistant Professor (2025–present)\nUniversity of Central Florida\nSimons Postdoctoral Fellow (2022–2025)\nRice University\nPh.D., Computational Science and Engineering (2022)\nGeorgia Institute of Technology\nM.Sc., Geophysics (2016)\nUniversity of Tehran\nB.Sc., Electrical Engineering (2013)\nSharif University of Technology"
+    "text": "Background\n\nAssistant Professor, University of Central Florida (2025–present)\nSimons Postdoctoral Fellow, Rice University (2022–2025)\nPh.D., Georgia Institute of Technology, Computational Science and Engineering (2022)\nM.Sc., University of Tehran, Geophysics (2016)\n\nB.Sc., Sharif University of Technology , Electrical Engineering (2013)"
   },
   {
     "objectID": "index.html#research",
     "href": "index.html#research",
     "title": "Ali Siahkoohi",
     "section": "Research",
-    "text": "Research\nMy research tackles uncertainty quantification in complex systems arising in computational science and engineering. My group’s approach involves integrating generative modeling and scientific computing to develop scalable sampling techniques for high-dimensional distributions. This work enables Bayesian inference in large-scale PDE-based inverse problems (e.g., seismic and medical imaging) and provides a principled approach to designing reliable, uncertainty-aware AI models for real-world applications."
+    "text": "Research\nMy research focuses on uncertainty quantification in complex systems that arise in computational science and engineering. My group integrates generative modeling with scientific computing to develop scalable sampling techniques for high-dimensional distributions. This work enables Bayesian inference in large-scale PDE-based inverse problems (e.g., seismic and medical imaging) and provides a principled framework for building reliable, uncertainty-aware AI models for real-world applications."
   },
   {
     "objectID": "index.html#teaching",
     "href": "index.html#teaching",
     "title": "Ali Siahkoohi",
     "section": "Teaching",
-    "text": "Teaching\nAlgorithms for Machine Learning (Fall 2025)"
+    "text": "Teaching\n\nAlgorithms for Machine Learning (Fall 2025)"
   },
   {
     "objectID": "index.html#publications",
@@ -32,6 +32,6 @@
     "href": "index.html#miscellaneous",
     "title": "Ali Siahkoohi",
     "section": "Miscellaneous",
-    "text": "Miscellaneous\n“I wish you hadn’t talked so much, it was distracting.” — Patrick Winston, How to Speak\n“No one cares about the inside of your head.” — Larry McEnerney, The Craft of Writing Effectively"
+    "text": "Miscellaneous\n\n“I wish you hadn’t talked so much, it was distracting.” — Patrick Winston, How to Speak\n“No one cares about the inside of your head.” — Larry McEnerney, The Craft of Writing Effectively"
   }
 ]

@@ -1,0 +1,9 @@
+ul {
+  margin-left: 0em;   /* default is around 2em */
+  padding-left: 1.2em;
+}
+ul ul {
+  margin-left: 0.5em; /* nested lists */
+  padding-left: 0.5em;
+}
+
