@@ -39,7 +39,7 @@
     "href": "CLAUDE.html",
     "title": "CLAUDE.md",
     "section": "",
-    "text": "This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.\n\n\nPersonal academic website for Ali Siahkoohi (Assistant Professor, UCF), built with Quarto and hosted on GitHub Pages.\n\n\n\nquarto preview          # Local dev server with live reload\nquarto render           # Build site to _site/\nquarto publish gh-pages # Deploy to GitHub Pages\n\n\n\n\nSingle-page site: All content lives in index.qmd (Quarto Markdown)\nConfiguration: _quarto.yml defines site metadata, navbar, footer, and theme settings\nTheming: Dual light/dark theme using Bootstrap-based Quarto themes\n\nLight: simplex + custom.scss (primary color: #0451A5)\nDark: cyborg + custom_dark.scss (primary color: #f7ac43, bg: #242424)\nGlobal overrides in styles.css\n\nStatic assets: All in files/ — profile photo, CV PDF, publication PDFs, and BibTeX .bib files\nBuild output: _site/ (gitignored via .quarto/ pattern, untracked)\n\n\n\n\nSections in order: Background, Research, Teaching, Publications (Preprints → Journal → Conference → Thesis → Technical Reports), Miscellaneous.\nPublications follow a consistent pattern: title link, author list, venue/status, and inline links to [pdf], [code], [slides], [poster], [bibtex].\n\n\n\n\nmaster branch: source files\ngh-pages branch: published site (managed by quarto publish)\nBibTeX files are named by author-based convention: AuthorLastNamesYear.bib (e.g., SiahkoohiMorelBalestrieroEtAl2026b.bib) and stored in files/"
+    "text": "This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.\n\n\nPersonal academic website for Ali Siahkoohi (Assistant Professor, UCF), built with Quarto and hosted on GitHub Pages.\n\n\n\nquarto preview          # Local dev server with live reload\nquarto render           # Build site to _site/\nquarto publish gh-pages # Deploy to GitHub Pages\n\n\n\n\nSingle-page site: All content lives in index.qmd (Quarto Markdown)\nConfiguration: _quarto.yml defines site metadata, navbar, footer, and theme settings\nTheming: Dual light/dark theme using Bootstrap-based Quarto themes\n\nLight: simplex + custom.scss (primary color: #0451A5)\nDark: cyborg + custom_dark.scss (primary color: #f7ac43, bg: #242424)\nGlobal overrides in styles.css\n\nStatic assets: All in files/ — profile photo, CV PDF, publication PDFs, and BibTeX .bib files\nBuild output: _site/ (gitignored via .quarto/ pattern, untracked)\n\n\n\n\nSections in order: Background, Research, Teaching, Publications (Preprints → Journal → Conference → Thesis → Technical Reports), Miscellaneous.\nPublications follow a consistent pattern: title link, author list, venue/status, and inline links to [pdf], [code], [slides], [poster], [bibtex].\n\n\n\n\nmaster branch: source files\ngh-pages branch: published site (managed by quarto publish)\nBibTeX files are named by author-based convention: AuthorLastNamesYear.bib (e.g., SiahkoohiMorelBalestrieroEtAl2026b.bib) and stored in files/\n\n\n\n\nSee adding-a-new-paper.md for the full procedure."
   },
   {
     "objectID": "CLAUDE.html#project-overview",
@@ -75,5 +75,54 @@
     "title": "CLAUDE.md",
     "section": "",
     "text": "master branch: source files\ngh-pages branch: published site (managed by quarto publish)\nBibTeX files are named by author-based convention: AuthorLastNamesYear.bib (e.g., SiahkoohiMorelBalestrieroEtAl2026b.bib) and stored in files/"
+  },
+  {
+    "objectID": "CLAUDE.html#adding-a-new-paper",
+    "href": "CLAUDE.html#adding-a-new-paper",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "See adding-a-new-paper.md for the full procedure."
+  },
+  {
+    "objectID": "adding-a-new-paper.html",
+    "href": "adding-a-new-paper.html",
+    "title": "Adding a New Paper",
+    "section": "",
+    "text": "A new paper must be added in three places: the website, the CV repo, and bib files for both. The CV lives at ~/Documents/cv-repo/.\n\n\n\nCreate files/&lt;KEY&gt;.bib with plain text author names (no LaTeX formatting, no underline).\nKey naming: LastName1LastName2_Year for 2-3 authors, LastName1LastName2LastName3EtAl_Year for 4+.\nUse @unpublished for preprints, with note = {Preprint arXiv:XXXX.XXXXX}.\n\nExample:\n@unpublished{ThatipelliSiahkoohi_2026,\n  title        = {\n    Hypernetwork-based approach for grid-independent functional data clustering\n  },\n  author       = {\n    Anirudh Thatipelli and Ali Siahkoohi\n  },\n  year         = 2026,\n  note       = {Preprint arXiv:2602.22823},\n}\n\n\n\n\nSame structure as above but Ali Siahkoohi’s name must be underlined: {\\underline{\\color{black}A. Siahkoohi}}\nUse abbreviated first names (e.g., Anirudh Thatipelli stays full, but Ali is always A. Siahkoohi).\nAdd the entry at the top of bib.bib.\n\nExample:\n@unpublished{ThatipelliSiahkoohi_2026,\n  title        = {\n    Hypernetwork-based approach for grid-independent functional data clustering\n  },\n  author       = {\n    Anirudh Thatipelli and {\\underline{\\color{black}A. Siahkoohi}}\n  },\n  year         = 2026,\n  note       = {Preprint arXiv:2602.22823},\n}\n\n\n\n\nAdd under the appropriate ### subsection (Preprints, Journal papers, Conference proceedings, etc.).\nEvery line (title, authors, venue/year) must end with two trailing spaces () for Markdown line breaks.\nAuthor names are plain text — do NOT underline Ali’s name on the website.\nFor preprints, the venue line is: *Preprint arXiv:XXXX.XXXXX*, YEAR.\nFor journal/conference papers, the venue line is: *Venue Name*, YEAR.\nLinks go on separate lines: [[pdf](...)], [[code](...)], [[slides](...)], [[poster](...)], [[bib](...)] — include only what’s available.\nThe bib link always points to: https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/&lt;KEY&gt;.bib\n\nExample preprint entry (note the two trailing spaces shown as ··):\n**Hypernetwork-based approach for grid-independent functional data clustering**··\nA. Thatipelli and A. Siahkoohi··\n*Preprint arXiv:2602.22823*, 2026.··\n[[pdf](https://arxiv.org/abs/2602.22823)]\n[[code](https://github.com/luqigroup/hypercluster)]\n[[poster](https://www.dropbox.com/scl/fi/...&raw=1)]\n[[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/ThatipelliSiahkoohi_2026.bib)]\n\n\n\n\nPreprints go under \\subsection*{In Preparation \\& Under Review}.\nJournal papers go under \\subsection*{Journal Publications}.\nConference papers go under \\subsection*{Peer-Reviewed Conference Publications}.\nEach item uses \\bibentry{KEY} and \\href{URL}{\\small \\color{mygray}[label]} links.\nAdd new entries at the top of the relevant etaremune list.\n\nExample:\n    \\item \\bibentry{ThatipelliSiahkoohi_2026} \\phantom{}\\\\\n    \\href{https://arxiv.org/abs/2602.22823}{\\small \\color{mygray}[pdf]}\n    \\href{https://github.com/luqigroup/hypercluster}{\\small \\color{mygray}[code]}\n    \\href{https://www.dropbox.com/scl/fi/...&raw=1}{\\small \\color{mygray}[poster]}\n    \\href{https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/ThatipelliSiahkoohi_2026.bib}{\\small \\color{mygray}[bib]}\n\n\n\ncd ~/Documents/cv-repo\npdflatex AliSiahkoohi-CV.tex\nbibtex AliSiahkoohi-CV\npdflatex AliSiahkoohi-CV.tex\npdflatex AliSiahkoohi-CV.tex\ncp AliSiahkoohi-CV.pdf ~/Documents/alisiahkoohi.github.io/files/AliSiahkoohi-CV.pdf"
+  },
+  {
+    "objectID": "adding-a-new-paper.html#bibtex-file-for-the-website-files",
+    "href": "adding-a-new-paper.html#bibtex-file-for-the-website-files",
+    "title": "Adding a New Paper",
+    "section": "",
+    "text": "Create files/&lt;KEY&gt;.bib with plain text author names (no LaTeX formatting, no underline).\nKey naming: LastName1LastName2_Year for 2-3 authors, LastName1LastName2LastName3EtAl_Year for 4+.\nUse @unpublished for preprints, with note = {Preprint arXiv:XXXX.XXXXX}.\n\nExample:\n@unpublished{ThatipelliSiahkoohi_2026,\n  title        = {\n    Hypernetwork-based approach for grid-independent functional data clustering\n  },\n  author       = {\n    Anirudh Thatipelli and Ali Siahkoohi\n  },\n  year         = 2026,\n  note       = {Preprint arXiv:2602.22823},\n}"
+  },
+  {
+    "objectID": "adding-a-new-paper.html#bibtex-entry-for-the-cv-documentscv-repobib.bib",
+    "href": "adding-a-new-paper.html#bibtex-entry-for-the-cv-documentscv-repobib.bib",
+    "title": "Adding a New Paper",
+    "section": "",
+    "text": "Same structure as above but Ali Siahkoohi’s name must be underlined: {\\underline{\\color{black}A. Siahkoohi}}\nUse abbreviated first names (e.g., Anirudh Thatipelli stays full, but Ali is always A. Siahkoohi).\nAdd the entry at the top of bib.bib.\n\nExample:\n@unpublished{ThatipelliSiahkoohi_2026,\n  title        = {\n    Hypernetwork-based approach for grid-independent functional data clustering\n  },\n  author       = {\n    Anirudh Thatipelli and {\\underline{\\color{black}A. Siahkoohi}}\n  },\n  year         = 2026,\n  note       = {Preprint arXiv:2602.22823},\n}"
+  },
+  {
+    "objectID": "adding-a-new-paper.html#website-entry-in-index.qmd",
+    "href": "adding-a-new-paper.html#website-entry-in-index.qmd",
+    "title": "Adding a New Paper",
+    "section": "",
+    "text": "Add under the appropriate ### subsection (Preprints, Journal papers, Conference proceedings, etc.).\nEvery line (title, authors, venue/year) must end with two trailing spaces () for Markdown line breaks.\nAuthor names are plain text — do NOT underline Ali’s name on the website.\nFor preprints, the venue line is: *Preprint arXiv:XXXX.XXXXX*, YEAR.\nFor journal/conference papers, the venue line is: *Venue Name*, YEAR.\nLinks go on separate lines: [[pdf](...)], [[code](...)], [[slides](...)], [[poster](...)], [[bib](...)] — include only what’s available.\nThe bib link always points to: https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/&lt;KEY&gt;.bib\n\nExample preprint entry (note the two trailing spaces shown as ··):\n**Hypernetwork-based approach for grid-independent functional data clustering**··\nA. Thatipelli and A. Siahkoohi··\n*Preprint arXiv:2602.22823*, 2026.··\n[[pdf](https://arxiv.org/abs/2602.22823)]\n[[code](https://github.com/luqigroup/hypercluster)]\n[[poster](https://www.dropbox.com/scl/fi/...&raw=1)]\n[[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/ThatipelliSiahkoohi_2026.bib)]"
+  },
+  {
+    "objectID": "adding-a-new-paper.html#cv-entry-in-documentscv-repoalisiahkoohi-cv.tex",
+    "href": "adding-a-new-paper.html#cv-entry-in-documentscv-repoalisiahkoohi-cv.tex",
+    "title": "Adding a New Paper",
+    "section": "",
+    "text": "Preprints go under \\subsection*{In Preparation \\& Under Review}.\nJournal papers go under \\subsection*{Journal Publications}.\nConference papers go under \\subsection*{Peer-Reviewed Conference Publications}.\nEach item uses \\bibentry{KEY} and \\href{URL}{\\small \\color{mygray}[label]} links.\nAdd new entries at the top of the relevant etaremune list.\n\nExample:\n    \\item \\bibentry{ThatipelliSiahkoohi_2026} \\phantom{}\\\\\n    \\href{https://arxiv.org/abs/2602.22823}{\\small \\color{mygray}[pdf]}\n    \\href{https://github.com/luqigroup/hypercluster}{\\small \\color{mygray}[code]}\n    \\href{https://www.dropbox.com/scl/fi/...&raw=1}{\\small \\color{mygray}[poster]}\n    \\href{https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/ThatipelliSiahkoohi_2026.bib}{\\small \\color{mygray}[bib]}"
+  },
+  {
+    "objectID": "adding-a-new-paper.html#compile-cv-and-copy-pdf",
+    "href": "adding-a-new-paper.html#compile-cv-and-copy-pdf",
+    "title": "Adding a New Paper",
+    "section": "",
+    "text": "cd ~/Documents/cv-repo\npdflatex AliSiahkoohi-CV.tex\nbibtex AliSiahkoohi-CV\npdflatex AliSiahkoohi-CV.tex\npdflatex AliSiahkoohi-CV.tex\ncp AliSiahkoohi-CV.pdf ~/Documents/alisiahkoohi.github.io/files/AliSiahkoohi-CV.pdf"
   }
 ]

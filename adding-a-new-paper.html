@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Ali Siahkoohi – claude</title>
+<title>Ali Siahkoohi – adding-a-new-paper</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -121,14 +121,13 @@ gtag('config', 'G-VCVVD4KWRF', { 'anonymize_ip': true});
     <h2 id="toc-title"><br><br><br></h2>
    
   <ul>
-  <li><a href="#claude.md" id="toc-claude.md" class="nav-link active" data-scroll-target="#claude.md">CLAUDE.md</a>
+  <li><a href="#adding-a-new-paper" id="toc-adding-a-new-paper" class="nav-link active" data-scroll-target="#adding-a-new-paper">Adding a New Paper</a>
   <ul class="collapse">
-  <li><a href="#project-overview" id="toc-project-overview" class="nav-link" data-scroll-target="#project-overview">Project Overview</a></li>
-  <li><a href="#build-development-commands" id="toc-build-development-commands" class="nav-link" data-scroll-target="#build-development-commands">Build &amp; Development Commands</a></li>
-  <li><a href="#architecture" id="toc-architecture" class="nav-link" data-scroll-target="#architecture">Architecture</a></li>
-  <li><a href="#content-structure-in-index.qmd" id="toc-content-structure-in-index.qmd" class="nav-link" data-scroll-target="#content-structure-in-index.qmd">Content Structure in index.qmd</a></li>
-  <li><a href="#git-deployment" id="toc-git-deployment" class="nav-link" data-scroll-target="#git-deployment">Git &amp; Deployment</a></li>
-  <li><a href="#adding-a-new-paper" id="toc-adding-a-new-paper" class="nav-link" data-scroll-target="#adding-a-new-paper">Adding a New Paper</a></li>
+  <li><a href="#bibtex-file-for-the-website-files" id="toc-bibtex-file-for-the-website-files" class="nav-link" data-scroll-target="#bibtex-file-for-the-website-files">1. BibTeX file for the website (<code>files/</code>)</a></li>
+  <li><a href="#bibtex-entry-for-the-cv-documentscv-repobib.bib" id="toc-bibtex-entry-for-the-cv-documentscv-repobib.bib" class="nav-link" data-scroll-target="#bibtex-entry-for-the-cv-documentscv-repobib.bib">2. BibTeX entry for the CV (<code>~/Documents/cv-repo/bib.bib</code>)</a></li>
+  <li><a href="#website-entry-in-index.qmd" id="toc-website-entry-in-index.qmd" class="nav-link" data-scroll-target="#website-entry-in-index.qmd">3. Website entry in <code>index.qmd</code></a></li>
+  <li><a href="#cv-entry-in-documentscv-repoalisiahkoohi-cv.tex" id="toc-cv-entry-in-documentscv-repoalisiahkoohi-cv.tex" class="nav-link" data-scroll-target="#cv-entry-in-documentscv-repoalisiahkoohi-cv.tex">4. CV entry in <code>~/Documents/cv-repo/AliSiahkoohi-CV.tex</code></a></li>
+  <li><a href="#compile-cv-and-copy-pdf" id="toc-compile-cv-and-copy-pdf" class="nav-link" data-scroll-target="#compile-cv-and-copy-pdf">5. Compile CV and copy PDF</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -138,50 +137,91 @@ gtag('config', 'G-VCVVD4KWRF', { 'anonymize_ip': true});
 
 
 
-<section id="claude.md" class="level1">
-<h1>CLAUDE.md</h1>
-<p>This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.</p>
-<section id="project-overview" class="level2">
-<h2 data-anchor-id="project-overview">Project Overview</h2>
-<p>Personal academic website for Ali Siahkoohi (Assistant Professor, UCF), built with <strong>Quarto</strong> and hosted on <strong>GitHub Pages</strong>.</p>
-</section>
-<section id="build-development-commands" class="level2">
-<h2 data-anchor-id="build-development-commands">Build &amp; Development Commands</h2>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> preview          <span class="co"># Local dev server with live reload</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render           <span class="co"># Build site to _site/</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> publish gh-pages <span class="co"># Deploy to GitHub Pages</span></span></code></pre></div>
-</section>
-<section id="architecture" class="level2">
-<h2 data-anchor-id="architecture">Architecture</h2>
+<section id="adding-a-new-paper" class="level1">
+<h1>Adding a New Paper</h1>
+<p>A new paper must be added in <strong>three places</strong>: the website, the CV repo, and bib files for both. The CV lives at <code>~/Documents/cv-repo/</code>.</p>
+<section id="bibtex-file-for-the-website-files" class="level2">
+<h2 data-anchor-id="bibtex-file-for-the-website-files">1. BibTeX file for the website (<code>files/</code>)</h2>
 <ul>
-<li><strong>Single-page site</strong>: All content lives in <code>index.qmd</code> (Quarto Markdown)</li>
-<li><strong>Configuration</strong>: <code>_quarto.yml</code> defines site metadata, navbar, footer, and theme settings</li>
-<li><strong>Theming</strong>: Dual light/dark theme using Bootstrap-based Quarto themes
-<ul>
-<li>Light: <code>simplex</code> + <code>custom.scss</code> (primary color: <code>#0451A5</code>)</li>
-<li>Dark: <code>cyborg</code> + <code>custom_dark.scss</code> (primary color: <code>#f7ac43</code>, bg: <code>#242424</code>)</li>
-<li>Global overrides in <code>styles.css</code></li>
-</ul></li>
-<li><strong>Static assets</strong>: All in <code>files/</code> — profile photo, CV PDF, publication PDFs, and BibTeX <code>.bib</code> files</li>
-<li><strong>Build output</strong>: <code>_site/</code> (gitignored via <code>.quarto/</code> pattern, untracked)</li>
+<li>Create <code>files/&lt;KEY&gt;.bib</code> with <strong>plain text</strong> author names (no LaTeX formatting, no underline).</li>
+<li>Key naming: <code>LastName1LastName2_Year</code> for 2-3 authors, <code>LastName1LastName2LastName3EtAl_Year</code> for 4+.</li>
+<li>Use <code>@unpublished</code> for preprints, with <code>note = {Preprint arXiv:XXXX.XXXXX}</code>.</li>
 </ul>
+<p>Example:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bibtex"><code class="sourceCode bibtex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">@unpublished</span>{<span class="ot">ThatipelliSiahkoohi_2026</span>,</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span>        = {</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    Hypernetwork-based approach for grid-independent functional data clustering</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  },</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span>       = {</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    Anirudh Thatipelli and Ali Siahkoohi</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  },</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="dt">year</span>         = 2026,</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="dt">note</span>       = {Preprint arXiv:2602.22823},</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
 </section>
-<section id="content-structure-in-index.qmd" class="level2">
-<h2 data-anchor-id="content-structure-in-index.qmd">Content Structure in index.qmd</h2>
-<p>Sections in order: Background, Research, Teaching, Publications (Preprints → Journal → Conference → Thesis → Technical Reports), Miscellaneous.</p>
-<p>Publications follow a consistent pattern: title link, author list, venue/status, and inline links to [pdf], [code], [slides], [poster], [bibtex].</p>
-</section>
-<section id="git-deployment" class="level2">
-<h2 data-anchor-id="git-deployment">Git &amp; Deployment</h2>
+<section id="bibtex-entry-for-the-cv-documentscv-repobib.bib" class="level2">
+<h2 data-anchor-id="bibtex-entry-for-the-cv-documentscv-repobib.bib">2. BibTeX entry for the CV (<code>~/Documents/cv-repo/bib.bib</code>)</h2>
 <ul>
-<li><code>master</code> branch: source files</li>
-<li><code>gh-pages</code> branch: published site (managed by <code>quarto publish</code>)</li>
-<li>BibTeX files are named by author-based convention: <code>AuthorLastNamesYear.bib</code> (e.g., <code>SiahkoohiMorelBalestrieroEtAl2026b.bib</code>) and stored in <code>files/</code></li>
+<li>Same structure as above but <strong>Ali Siahkoohi’s name must be underlined</strong>: <code>{\underline{\color{black}A. Siahkoohi}}</code></li>
+<li>Use abbreviated first names (e.g., <code>Anirudh Thatipelli</code> stays full, but Ali is always <code>A. Siahkoohi</code>).</li>
+<li>Add the entry at the <strong>top</strong> of <code>bib.bib</code>.</li>
 </ul>
+<p>Example:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bibtex"><code class="sourceCode bibtex"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="va">@unpublished</span>{<span class="ot">ThatipelliSiahkoohi_2026</span>,</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span>        = {</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    Hypernetwork-based approach for grid-independent functional data clustering</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  },</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span>       = {</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    Anirudh Thatipelli and {<span class="ch">\underline</span>{<span class="ch">\color</span>{black}A. Siahkoohi}}</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>  },</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>  <span class="dt">year</span>         = 2026,</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>  <span class="dt">note</span>       = {Preprint arXiv:2602.22823},</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
 </section>
-<section id="adding-a-new-paper" class="level2">
-<h2 data-anchor-id="adding-a-new-paper">Adding a New Paper</h2>
-<p>See <a href="./adding-a-new-paper.html">adding-a-new-paper.md</a> for the full procedure.</p>
+<section id="website-entry-in-index.qmd" class="level2">
+<h2 data-anchor-id="website-entry-in-index.qmd">3. Website entry in <code>index.qmd</code></h2>
+<ul>
+<li>Add under the appropriate <code>###</code> subsection (Preprints, Journal papers, Conference proceedings, etc.).</li>
+<li><strong>Every line</strong> (title, authors, venue/year) must end with <strong>two trailing spaces</strong> (<code></code>) for Markdown line breaks.</li>
+<li>Author names are plain text — <strong>do NOT underline</strong> Ali’s name on the website.</li>
+<li>For preprints, the venue line is: <code>*Preprint arXiv:XXXX.XXXXX*, YEAR.</code></li>
+<li>For journal/conference papers, the venue line is: <code>*Venue Name*, YEAR.</code></li>
+<li>Links go on separate lines: <code>[[pdf](...)]</code>, <code>[[code](...)]</code>, <code>[[slides](...)]</code>, <code>[[poster](...)]</code>, <code>[[bib](...)]</code> — include only what’s available.</li>
+<li>The bib link always points to: <code>https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/&lt;KEY&gt;.bib</code></li>
+</ul>
+<p>Example preprint entry (note the two trailing spaces shown as <code>··</code>):</p>
+<pre><code>**Hypernetwork-based approach for grid-independent functional data clustering**··
+A. Thatipelli and A. Siahkoohi··
+*Preprint arXiv:2602.22823*, 2026.··
+[[pdf](https://arxiv.org/abs/2602.22823)]
+[[code](https://github.com/luqigroup/hypercluster)]
+[[poster](https://www.dropbox.com/scl/fi/...&amp;raw=1)]
+[[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/ThatipelliSiahkoohi_2026.bib)]</code></pre>
+</section>
+<section id="cv-entry-in-documentscv-repoalisiahkoohi-cv.tex" class="level2">
+<h2 data-anchor-id="cv-entry-in-documentscv-repoalisiahkoohi-cv.tex">4. CV entry in <code>~/Documents/cv-repo/AliSiahkoohi-CV.tex</code></h2>
+<ul>
+<li>Preprints go under <code>\subsection*{In Preparation \&amp; Under Review}</code>.</li>
+<li>Journal papers go under <code>\subsection*{Journal Publications}</code>.</li>
+<li>Conference papers go under <code>\subsection*{Peer-Reviewed Conference Publications}</code>.</li>
+<li>Each item uses <code>\bibentry{KEY}</code> and <code>\href{URL}{\small \color{mygray}[label]}</code> links.</li>
+<li>Add new entries at the <strong>top</strong> of the relevant <code>etaremune</code> list.</li>
+</ul>
+<p>Example:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode latex"><code class="sourceCode latex"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>    <span class="fu">\item</span> <span class="fu">\bibentry</span>{ThatipelliSiahkoohi_2026} <span class="fu">\phantom</span>{}<span class="fu">\\</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>    <span class="fu">\href</span>{https://arxiv.org/abs/2602.22823}{<span class="fu">\small</span> <span class="fu">\color</span>{mygray}[pdf]}</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">\href</span>{https://github.com/luqigroup/hypercluster}{<span class="fu">\small</span> <span class="fu">\color</span>{mygray}[code]}</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    <span class="fu">\href</span>{https://www.dropbox.com/scl/fi/...&amp;raw=1}{<span class="fu">\small</span> <span class="fu">\color</span>{mygray}[poster]}</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>    <span class="fu">\href</span>{https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/ThatipelliSiahkoohi_2026.bib}{<span class="fu">\small</span> <span class="fu">\color</span>{mygray}[bib]}</span></code></pre></div>
+</section>
+<section id="compile-cv-and-copy-pdf" class="level2">
+<h2 data-anchor-id="compile-cv-and-copy-pdf">5. Compile CV and copy PDF</h2>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> ~/Documents/cv-repo</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="ex">pdflatex</span> AliSiahkoohi-CV.tex</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="ex">bibtex</span> AliSiahkoohi-CV</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="ex">pdflatex</span> AliSiahkoohi-CV.tex</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="ex">pdflatex</span> AliSiahkoohi-CV.tex</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="fu">cp</span> AliSiahkoohi-CV.pdf ~/Documents/alisiahkoohi.github.io/files/AliSiahkoohi-CV.pdf</span></code></pre></div>
 
 
 </section>
