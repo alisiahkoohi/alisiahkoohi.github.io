@@ -1,1 +1,1 @@
-Sitemap: https://github.com/alisiahkoohi/alisiahkoohi.github.io/sitemap.xml
+Sitemap: https://alisiahkoohi.github.io/sitemap.xml
