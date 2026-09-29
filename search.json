@@ -11,7 +11,7 @@
     "href": "index.html#research",
     "title": "Ali Siahkoohi",
     "section": "Research",
-    "text": "Research\nMy research focuses on uncertainty quantification in complex systems that arise in computational science and engineering. By integrating deep learning and scientific computing, my group develops scalable techniques for sampling high-dimensional distributions and estimating uncertainty. This work enables Bayesian inference in large-scale PDE-based inverse problems (e.g., seismic and medical imaging) and provides a principled framework for building reliable, uncertainty-aware AI models, including understanding when their reported uncertainty can be trusted."
+    "text": "Research\nMy research focuses on uncertainty quantification in complex systems that arise in computational science and engineering. By combining deep learning with scientific computing, my group develops scalable algorithms for high-dimensional probabilistic modeling and inference. This work enables Bayesian inference in large-scale PDE-based inverse problems (e.g., seismic and medical imaging) and provides a principled framework for building reliable, uncertainty-aware AI models for real-world applications."
   },
   {
     "objectID": "index.html#teaching",
