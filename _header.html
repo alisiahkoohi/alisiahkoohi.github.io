@@ -1,0 +1,26 @@
+<header class="site">
+  <h1><a href="index.html">Ali Siahkoohi</a></h1>
+  <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">&#9680;</button>
+  <nav class="site-menu">
+    <ul>
+      <li class="nav-home"><a href="index.html">Home</a></li>
+      <li class="nav-background"><a href="background.html">Background</a></li>
+      <li class="nav-research"><a href="research.html">Research</a></li>
+      <li class="sub"><a href="research.html#preprints">Preprints</a></li>
+      <li class="sub"><a href="research.html#journal-papers">Journals</a></li>
+      <li class="sub"><a href="research.html#conference-proceedings-and-presentations">Conferences</a></li>
+      <li class="sub"><a href="research.html#thesis">Thesis</a></li>
+      <li class="sub"><a href="research.html#technical-reports">Reports</a></li>
+      <li class="nav-teaching"><a href="teaching.html">Teaching</a></li>
+      <li class="nav-random"><a href="random.html">Random</a></li>
+    </ul>
+  </nav>
+</header>
+<script>
+  // light/dark toggle, remembered across pages
+  document.querySelector("header.site .theme-toggle").addEventListener("click", function () {
+    var root = document.documentElement, dark = root.getAttribute("data-theme") === "dark";
+    if (dark) root.removeAttribute("data-theme"); else root.setAttribute("data-theme", "dark");
+    try { localStorage.setItem("theme", dark ? "light" : "dark"); } catch (e) {}
+  });
+</script>

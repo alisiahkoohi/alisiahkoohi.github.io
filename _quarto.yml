@@ -6,28 +6,13 @@ website:
   google-analytics: "G-VCVVD4KWRF"
   search: false
 
-  # Without this, the page footer will not display. It is removed in index.qmd
-  navbar:
-    background: dark
-
-  page-footer:
-    center:
-      - text: \[Made with Quarto\]
-        href: https://quarto.org
-      - text: \[Source\]
-        href: https://github.com/alisiahkoohi/alisiahkoohi.github.io
-      - text: \[License\]
-        href: https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/LICENSE
-
 format:
   html:
+    theme: none
+    minimal: true
     css: styles.css
-    theme:
-      light: [simplex, custom.scss]
-      dark: [cyborg, custom_dark.scss]
-    fontsize: 1.0em
-    linestretch: 1.4
-    mainfont: "sans-serif"
-    toc: true
-    toc-title: "<br><br><br>"
-    link-external-newwindow: false
+    include-in-header: _theme-head.html
+    include-before-body: _header.html
+    include-after-body: _footer.html
+    toc: false
+    anchor-sections: false

@@ -1,0 +1,8 @@
+---
+title: "Random"
+body-classes: random
+---
+
+- "I wish you hadn't talked so much, it was distracting." --- Patrick Winston, [How to Speak](https://youtu.be/Unzc731iCUY)
+- "No one cares about the inside of your head." --- Larry McEnerney, [The Craft of Writing Effectively](https://youtu.be/vtIzMaLkCaM)
+- "Efficiency does not guarantee optimality." --- Moshe Vardi, [Lessons from Texas, COVID-19, and the 737 Max: Efficiency vs. Resilience](https://youtu.be/kr_OjwW59ug?si=jXMWeZeuMQkvrLKu)

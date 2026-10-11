@@ -1,0 +1,8 @@
+---
+title: "Teaching"
+body-classes: teaching
+---
+
+- [Algorithms for Machine Learning](https://luqigroup.github.io/cap-4611/) (Fall 2026)
+- [Sampling Methods for Uncertainty Quantification](https://luqigroup.github.io/cap-6938/) (Spring 2026)
+- [Algorithms for Machine Learning](https://luqigroup.github.io/cap-4611-fall-2025/) (Fall 2025)

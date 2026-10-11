@@ -1,28 +1,125 @@
-ul {
-  margin-left: 0em;   /* default is around 2em */
-  padding-left: 1.2em;
+@import url("https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+/* Colours. Light: the slide grays (GrayText #434343, LightGray #c0c0c0) on #fcfcfc, with orange
+   (#FF9500) links. Dark: the previous site's dark theme (custom_dark.scss). */
+:root {
+  --dark-color: #434343;
+  --link-color: #FF9500;
+  --background-color: #fcfcfc;
+  --highlight-color: #fca;
+  --heading-color: #434343;
+  --border-color: #434343;
+  --rule-color: #434343;
+  --menu-rule-color: #c0c0c0;
 }
-ul ul {
-  margin-left: 0.5em; /* nested lists */
-  padding-left: 0.5em;
+:root[data-theme="dark"] {
+  --dark-color: #FF9500;
+  --link-color: #f7ac43;
+  --background-color: #242424;
+  --highlight-color: #3a3a3a;
+  --heading-color: #f7ac43;
+  --border-color: #727475;
+  --rule-color: #727475;
+  --menu-rule-color: #4a4a4a;
+  color-scheme: dark;
 }
 
-a {
-  text-decoration: none;
+/* Type: Noticia Text, 16px, line-height 1.5, in an 800px centred column. */
+html { background-color: var(--background-color); }
+body {
+  color: var(--dark-color);
+  background-color: var(--background-color);
+  font-family: "Noticia Text", serif;
+  font-size: 16px;
+  line-height: 1.5;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1.5rem 1.5em 5rem;   /* bottom padding reserves room for the footer */
+  box-sizing: border-box;
+  min-height: 100vh;
+  position: relative;
 }
-a:hover, a:focus {
-  text-decoration: underline; /* optional: keep underline on hover */
+a { color: var(--link-color); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+h1, h2, h3, h4, h5, h6 { text-align: left; color: var(--heading-color); line-height: 1.25; }
+h2 { margin: 2rem 0 .75rem; }
+h3 { margin: 1.5rem 0 .5rem; font-weight: 700; }   /* Preprints, Journal papers, ...: bold, like the page titles */
+hr { border: 0; border-top: 1px solid var(--rule-color); margin: 1.5rem 0; }
+
+/* Header: the name, and the light/dark toggle in the top-right corner. */
+header.site { position: relative; margin-bottom: 2.25rem; }
+header.site h1 { margin: .5rem 0 1.1rem; }
+header.site h1 a { color: var(--heading-color); }
+header.site .theme-toggle {
+  position: absolute; top: .35rem; right: 0;   /* level with the name (its top margin falls outside the header) */
+  padding: .1rem .4rem; border: 1px solid var(--border-color); border-radius: .3rem;
+  background: none; color: var(--link-color); font: inherit; font-weight: 700; cursor: pointer;
+}
+header.site .theme-toggle:hover { background: var(--highlight-color); }
+
+/* Menu, after the previous site's contents column: plain links on a thin rule, the current page
+   in orange with an orange marker. Wide screens: a column beside the text, the rule on its left.
+   Narrow screens: a row under the name, the rule underneath, listing the OTHER pages (it fits on
+   one line on a phone); the page title says where you are. */
+.site-menu ul { list-style: none; margin: 0; padding: 0; }
+.site-menu li a { display: block; color: var(--dark-color); font-size: 1.05rem; }
+.site-menu li a:hover { color: var(--link-color); text-decoration: none; }
+body.home .nav-home > a, body.background .nav-background > a, body.research .nav-research > a,
+body.teaching .nav-teaching > a, body.random .nav-random > a {
+  color: var(--link-color); border-color: var(--link-color);
+}
+.site-menu li.sub { display: none; }                          /* Research's sections, */
+.site-menu li.sub a { padding-left: 1.7rem; font-size: .92rem; }
+
+/* Wide screens: the menu is pinned just right of the text column (800px, centred, text 1.5em in)
+   and stays put while the page scrolls; the light/dark toggle sits above it, level with the name. */
+@media (min-width: 1150px) {
+  .site-menu, header.site .theme-toggle { position: fixed; left: calc(50% + 400px - 1.5em + 2rem); }
+  .site-menu { top: 5.9rem; }
+  header.site .theme-toggle { top: 2.35rem; right: auto; }   /* left edge on the menu's rule */
+  .site-menu ul { border-left: 1px solid var(--menu-rule-color); }
+  .site-menu li a { margin-left: -1px; padding: .15rem 0 .15rem .85rem; border-left: 2px solid transparent; }
+  body.research .site-menu li.sub { display: block; }        /* only on the Research page */
+  header.site { margin-bottom: 1.5rem; }
+}
+@media (max-width: 1149.98px) {
+  .site-menu ul { display: flex; flex-wrap: wrap; column-gap: 1.25rem; border-bottom: 1px solid var(--menu-rule-color); }
+  .site-menu li a { margin-bottom: -1px; padding: .15rem 0 .35rem; border-bottom: 2px solid transparent; }
+  body.home li.nav-home, body.background li.nav-background, body.research li.nav-research,
+  body.teaching li.nav-teaching, body.random li.nav-random { display: none; }
 }
 
-/* Re-centre the header block at 768-991px (tablets, narrow windows).
-   Quarto 1.3 emitted `.about-entity { align-items: start }` before its
-   narrow-screen `align-items: center`; Quarto 1.10 emits it after, so `start`
-   wins at every width. styles.css loads last, so restating the centring here
-   restores the old layout without !important, and is inert if Quarto goes
-   back to the old order. Phones were unaffected: below 768px the header
-   contents are already full width. */
+/* Page titles (every page but Home): the size and place of "Assistant Professor" on Home, in bold. */
+#title-block-header { margin: 0; }
+#title-block-header h1.title {
+  margin: 0; font-size: 1.25rem; font-weight: 700; line-height: 1.5; color: var(--dark-color);
+}
+
+/* Home page: the affiliation block. */
+.home-meta { text-align: left; }
+.home-meta p { margin: 0 0 1rem; }
+.home-meta p:first-child { margin-bottom: .35rem; }   /* role sits close to the affiliation */
+.site-role { font-size: 1.25rem; }                    /* as on the previous site (Bootstrap .lead) */
+.home-meta p:last-child a { white-space: nowrap; }      /* "[Google Scholar]" never splits */
+
+/* Page lists: flush left, with the small right triangle the CV uses (\blacktriangleright). */
+body > ul { list-style: none; padding-left: 0; margin-left: 0; }
+body > ul > li { position: relative; padding-left: 1.1em; }
+body > ul > li::before { content: "\25B8"; position: absolute; left: 0; }
+
+/* Credits sit flush at the bottom of the window on short pages, after the content on long ones. */
+footer.site { border-top: 1px solid var(--rule-color); position: absolute; left: 1.5em; right: 1.5em; bottom: 0; }
+footer.site p { font-size: smaller; }
+
+/* Below 992px (the previous site's breakpoint) the name, menu and affiliation centre. */
 @media (max-width: 991.98px) {
-  div.quarto-about-solana .about-entity {
-    align-items: center;
-  }
+  header.site h1, .home-meta { text-align: center; }
+  .site-menu ul { justify-content: center; }
+}
+@media (max-width: 600px) {
+  body { padding: 1.5rem 1rem 5.5rem; }
+  .site-menu ul { justify-content: space-between; column-gap: .6rem; }   /* one row on a phone */
+  .site-menu li a { font-size: .95rem; }
+  footer.site { left: 1rem; right: 1rem; }
 }

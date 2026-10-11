@@ -1,0 +1,4 @@
+<script>
+  // Apply a saved dark choice before the page is drawn (no white flash). Default: light.
+  try { if (localStorage.getItem("theme") === "dark") document.documentElement.setAttribute("data-theme", "dark"); } catch (e) {}
+</script>

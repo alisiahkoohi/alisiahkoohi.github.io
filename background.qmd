@@ -1,0 +1,10 @@
+---
+title: "Background"
+body-classes: background
+---
+
+- **Assistant Professor**, Computer Science, *University of Central Florida* (2025--present)
+- **Simons Postdoctoral Fellow**, Computational and Applied Mathematics, *Rice University* (2022--2025)
+- **Ph.D.**, Computational Science and Engineering, *Georgia Institute of Technology* (2022)
+- **M.Sc.**, Geophysics, *University of Tehran* (2016)
+- **B.Sc.**, Electrical Engineering, *Sharif University of Technology* (2013)
