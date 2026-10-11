@@ -44,7 +44,7 @@ a:hover { text-decoration: underline; }
 
 h1, h2, h3, h4, h5, h6 { text-align: left; color: var(--heading-color); line-height: 1.25; }
 h2 { margin: 2rem 0 .75rem; }
-h3 { margin: 1.5rem 0 .5rem; }
+h3 { margin: 1.5rem 0 .5rem; font-weight: 400; }   /* Preprints, Journal papers, ...: not bold */
 hr { border: 0; border-top: 1px solid var(--rule-color); margin: 1.5rem 0; }
 
 /* Header: the name, and the light/dark toggle in the top-right corner. */
