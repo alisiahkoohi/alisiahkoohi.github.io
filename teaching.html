@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Teaching – Ali Siahkoohi</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
+</style>
+
+
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-VCVVD4KWRF"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-VCVVD4KWRF', { 'anonymize_ip': true});
+</script>
+<script>
+  // Apply a saved dark choice before the page is drawn (no white flash). Default: light.
+  try { if (localStorage.getItem("theme") === "dark") document.documentElement.setAttribute("data-theme", "dark"); } catch (e) {}
+</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="teaching">
+
+<header class="site">
+  <h1><a href="index.html">Ali Siahkoohi</a></h1>
+  <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">◐</button>
+  <details class="site-menu" open="">
+    <summary>Menu</summary>
+    <nav>
+      <ul>
+        <li><a class="nav-home" href="index.html">Home</a></li>
+        <li><a class="nav-background" href="background.html">Background</a></li>
+        <li><a class="nav-research" href="research.html">Research</a></li>
+        <li class="sub"><a href="research.html#preprints">Preprints</a></li>
+        <li class="sub"><a href="research.html#journal-papers">Journals</a></li>
+        <li class="sub"><a href="research.html#conference-proceedings-and-presentations">Conferences</a></li>
+        <li class="sub"><a href="research.html#thesis">Thesis</a></li>
+        <li class="sub"><a href="research.html#technical-reports">Reports</a></li>
+        <li><a class="nav-teaching" href="teaching.html">Teaching</a></li>
+        <li><a class="nav-random" href="random.html">Random</a></li>
+      </ul>
+    </nav>
+  </details>
+</header>
+<script>
+  // Menu: always open on wide screens (pinned beside the text); a closed drop-down on narrow ones.
+  (function () {
+    var menu = document.querySelector("header.site details.site-menu");
+    var wide = window.matchMedia("(min-width: 1100px)");
+    function sync() { menu.open = wide.matches; }
+    sync();
+    wide.addEventListener("change", sync);
+  })();
+  // light/dark toggle, remembered across pages
+  document.querySelector("header.site .theme-toggle").addEventListener("click", function () {
+    var root = document.documentElement, dark = root.getAttribute("data-theme") === "dark";
+    if (dark) root.removeAttribute("data-theme"); else root.setAttribute("data-theme", "dark");
+    try { localStorage.setItem("theme", dark ? "light" : "dark"); } catch (e) {}
+  });
+</script>
+
+<header id="title-block-header">
+<h1 class="title">Teaching</h1>
+
+</header>
+
+
+<ul>
+<li><a href="https://luqigroup.github.io/cap-4611/">Algorithms for Machine Learning</a> (Fall 2026)</li>
+<li><a href="https://luqigroup.github.io/cap-6938/">Sampling Methods for Uncertainty Quantification</a> (Spring 2026)</li>
+<li><a href="https://luqigroup.github.io/cap-4611-fall-2025/">Algorithms for Machine Learning</a> (Fall 2025)</li>
+</ul>
+
+
+<footer class="site">
+  <p>© 2026 Ali Siahkoohi · Made with <a href="https://quarto.org">Quarto</a></p>
+</footer>
+
+
+
+
+</body></html>
