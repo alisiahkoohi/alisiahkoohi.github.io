@@ -53,33 +53,22 @@ gtag('config', 'G-VCVVD4KWRF', { 'anonymize_ip': true});
 <header class="site">
   <h1><a href="index.html">Ali Siahkoohi</a></h1>
   <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">◐</button>
-  <details class="site-menu" open="">
-    <summary><span class="here-home">Home</span><span class="here-background">Background</span><span class="here-research">Research</span><span class="here-teaching">Teaching</span><span class="here-random">Random</span></summary>
-    <nav>
-      <ul>
-        <li><a class="nav-home" href="index.html">Home</a></li>
-        <li><a class="nav-background" href="background.html">Background</a></li>
-        <li><a class="nav-research" href="research.html">Research</a></li>
-        <li class="sub"><a href="research.html#preprints">Preprints</a></li>
-        <li class="sub"><a href="research.html#journal-papers">Journals</a></li>
-        <li class="sub"><a href="research.html#conference-proceedings-and-presentations">Conferences</a></li>
-        <li class="sub"><a href="research.html#thesis">Thesis</a></li>
-        <li class="sub"><a href="research.html#technical-reports">Reports</a></li>
-        <li><a class="nav-teaching" href="teaching.html">Teaching</a></li>
-        <li><a class="nav-random" href="random.html">Random</a></li>
-      </ul>
-    </nav>
-  </details>
+  <nav class="site-menu">
+    <ul>
+      <li><a class="nav-home" href="index.html">Home</a></li>
+      <li><a class="nav-background" href="background.html">Background</a></li>
+      <li><a class="nav-research" href="research.html">Research</a></li>
+      <li class="sub"><a href="research.html#preprints">Preprints</a></li>
+      <li class="sub"><a href="research.html#journal-papers">Journals</a></li>
+      <li class="sub"><a href="research.html#conference-proceedings-and-presentations">Conferences</a></li>
+      <li class="sub"><a href="research.html#thesis">Thesis</a></li>
+      <li class="sub"><a href="research.html#technical-reports">Reports</a></li>
+      <li><a class="nav-teaching" href="teaching.html">Teaching</a></li>
+      <li><a class="nav-random" href="random.html">Random</a></li>
+    </ul>
+  </nav>
 </header>
 <script>
-  // Menu: always open on wide screens (pinned beside the text); a closed drop-down on narrow ones.
-  (function () {
-    var menu = document.querySelector("header.site details.site-menu");
-    var wide = window.matchMedia("(min-width: 1100px)");
-    function sync() { menu.open = wide.matches; }
-    sync();
-    wide.addEventListener("change", sync);
-  })();
   // light/dark toggle, remembered across pages
   document.querySelector("header.site .theme-toggle").addEventListener("click", function () {
     var root = document.documentElement, dark = root.getAttribute("data-theme") === "dark";
