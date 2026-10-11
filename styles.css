@@ -81,10 +81,8 @@ body.teaching a.nav-teaching, body.random a.nav-random {
   .site-menu li a { margin-left: -1px; padding: .15rem 0 .15rem .85rem; border-left: 2px solid transparent; }
   body.research .site-menu li.sub { display: block; }        /* only on the Research page */
   header.site { margin-bottom: 1.5rem; }
-  /* The name only on Home; elsewhere the page title takes its place, level with the toggle. */
-  body:not(.home) header.site { margin-bottom: 0; }
-  body:not(.home) header.site h1 { display: none; }
-  body:not(.home) #title-block-header { margin-top: .9rem; }
+  /* The name only on Home; elsewhere its space is kept, so every page starts at the same height. */
+  body:not(.home) header.site h1 { visibility: hidden; }
 }
 @media (max-width: 1149.98px) {
   .site-menu ul { display: flex; flex-wrap: wrap; column-gap: 1.25rem; border-bottom: 1px solid var(--menu-rule-color); }
