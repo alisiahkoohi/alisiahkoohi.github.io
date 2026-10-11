@@ -90,12 +90,10 @@ body.teaching a.nav-teaching, body.random a.nav-random {
   #title-block-header { display: none; }   /* the underlined menu entry already names the page */
 }
 
-/* Page titles (every page but Home): a step below the name, with a thin line under them, as the
-   section titles on the previous site. */
-#title-block-header { margin: 0 0 1.25rem; }
+/* Page titles (every page but Home): set like "Assistant Professor" on Home, in the same place. */
+#title-block-header { margin: 0; }
 #title-block-header h1.title {
-  font-size: 1.35rem; margin: 0; padding-bottom: .5rem;
-  border-bottom: 1px solid var(--rule-color);
+  margin: 0; font-size: 1.25rem; font-weight: 400; line-height: 1.5; color: var(--dark-color);
 }
 
 /* Home page: the affiliation block. */
