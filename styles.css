@@ -59,13 +59,17 @@ header.site .theme-toggle {
 header.site .theme-toggle:hover { background: var(--highlight-color); }
 
 /* Menu, after the previous site's contents column: a plain list on a thin vertical rule, the
-   current page in orange with an orange marker. Narrow screens: a drop-down under the name. */
+   current page in orange with an orange marker. Narrow screens: a drop-down under the name,
+   its button naming the current page. */
 .site-menu summary {
   display: inline-block; list-style: none; cursor: pointer;
   padding: .1rem .5rem; border: 1px solid var(--border-color); border-radius: .3rem;
   color: var(--link-color); font-weight: 700;
 }
 .site-menu summary::-webkit-details-marker { display: none; }
+.site-menu summary span { display: none; }                    /* the button names the current page */
+body.home .here-home, body.background .here-background, body.research .here-research,
+body.teaching .here-teaching, body.random .here-random { display: inline; }
 .site-menu summary::after { content: " \25BE"; }
 .site-menu[open] summary::after { content: " \25B4"; }
 .site-menu nav ul { list-style: none; margin: .6rem 0 0; padding: 0; border-left: 1px solid var(--menu-rule-color); }
