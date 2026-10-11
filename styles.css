@@ -60,12 +60,13 @@ header.site .theme-toggle:hover { background: var(--highlight-color); }
 
 /* Menu, after the previous site's contents column: plain links on a thin rule, the current page
    in orange with an orange marker. Wide screens: a column beside the text, the rule on its left.
-   Narrow screens: a row under the name, the rule underneath. */
+   Narrow screens: a row under the name, the rule underneath, listing the OTHER pages (it fits on
+   one line on a phone); the page title says where you are. */
 .site-menu ul { list-style: none; margin: 0; padding: 0; }
 .site-menu li a { display: block; color: var(--dark-color); font-size: 1.05rem; }
 .site-menu li a:hover { color: var(--link-color); text-decoration: none; }
-body.home a.nav-home, body.background a.nav-background, body.research a.nav-research,
-body.teaching a.nav-teaching, body.random a.nav-random {
+body.home .nav-home > a, body.background .nav-background > a, body.research .nav-research > a,
+body.teaching .nav-teaching > a, body.random .nav-random > a {
   color: var(--link-color); border-color: var(--link-color);
 }
 .site-menu li.sub { display: none; }                          /* Research's sections, */
@@ -87,7 +88,8 @@ body.teaching a.nav-teaching, body.random a.nav-random {
 @media (max-width: 1149.98px) {
   .site-menu ul { display: flex; flex-wrap: wrap; column-gap: 1.25rem; border-bottom: 1px solid var(--menu-rule-color); }
   .site-menu li a { margin-bottom: -1px; padding: .15rem 0 .35rem; border-bottom: 2px solid transparent; }
-  #title-block-header { display: none; }   /* the underlined menu entry already names the page */
+  body.home li.nav-home, body.background li.nav-background, body.research li.nav-research,
+  body.teaching li.nav-teaching, body.random li.nav-random { display: none; }
 }
 
 /* Page titles (every page but Home): set like "Assistant Professor" on Home, in the same place. */
