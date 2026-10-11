@@ -92,10 +92,10 @@ body.teaching .nav-teaching > a, body.random .nav-random > a {
   body.teaching li.nav-teaching, body.random li.nav-random { display: none; }
 }
 
-/* Page titles (every page but Home): set like "Assistant Professor" on Home, in the same place. */
+/* Page titles (every page but Home): the size and place of "Assistant Professor" on Home, in bold. */
 #title-block-header { margin: 0; }
 #title-block-header h1.title {
-  margin: 0; font-size: 1.25rem; font-weight: 400; line-height: 1.5; color: var(--dark-color);
+  margin: 0; font-size: 1.25rem; font-weight: 700; line-height: 1.5; color: var(--dark-color);
 }
 
 /* Home page: the affiliation block. */
@@ -103,6 +103,7 @@ body.teaching .nav-teaching > a, body.random .nav-random > a {
 .home-meta p { margin: 0 0 1rem; }
 .home-meta p:first-child { margin-bottom: .35rem; }   /* role sits close to the affiliation */
 .site-role { font-size: 1.25rem; }                    /* as on the previous site (Bootstrap .lead) */
+.home-meta p:last-child a { white-space: nowrap; }      /* "[Google Scholar]" never splits */
 
 /* Page lists: flush left, with the small right triangle the CV uses (\blacktriangleright). */
 body > ul { list-style: none; padding-left: 0; margin-left: 0; }
