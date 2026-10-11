@@ -73,18 +73,23 @@ body.teaching a.nav-teaching, body.random a.nav-random {
 
 /* Wide screens: the menu is pinned just right of the text column (800px, centred, text 1.5em in)
    and stays put while the page scrolls; the light/dark toggle sits above it, level with the name. */
-@media (min-width: 1100px) {
-  .site-menu, header.site .theme-toggle { position: fixed; left: calc(50% + 400px - 1.5em + .75rem); }
+@media (min-width: 1150px) {
+  .site-menu, header.site .theme-toggle { position: fixed; left: calc(50% + 400px - 1.5em + 2rem); }
   .site-menu { top: 5.9rem; }
   header.site .theme-toggle { top: 2.35rem; right: auto; }   /* left edge on the menu's rule */
   .site-menu ul { border-left: 1px solid var(--menu-rule-color); }
   .site-menu li a { margin-left: -1px; padding: .15rem 0 .15rem .85rem; border-left: 2px solid transparent; }
   body.research .site-menu li.sub { display: block; }        /* only on the Research page */
   header.site { margin-bottom: 1.5rem; }
+  /* The name only on Home; elsewhere the page title takes its place, level with the toggle. */
+  body:not(.home) header.site { margin-bottom: 0; }
+  body:not(.home) header.site h1 { display: none; }
+  body:not(.home) #title-block-header { margin-top: .9rem; }
 }
-@media (max-width: 1099.98px) {
+@media (max-width: 1149.98px) {
   .site-menu ul { display: flex; flex-wrap: wrap; column-gap: 1.25rem; border-bottom: 1px solid var(--menu-rule-color); }
   .site-menu li a { margin-bottom: -1px; padding: .15rem 0 .35rem; border-bottom: 2px solid transparent; }
+  #title-block-header { display: none; }   /* the underlined menu entry already names the page */
 }
 
 /* Page titles (every page but Home): a step below the name, with a thin line under them, as the
