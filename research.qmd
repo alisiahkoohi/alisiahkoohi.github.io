@@ -44,6 +44,7 @@ A. Siahkoohi
 A. Siahkoohi, K. Aghazade, and A. Gholami  
 *Preprint arXiv:2603.00393*, 2026.  
 [[pdf](https://arxiv.org/abs/2603.00393)]
+[[slides](https://www.dropbox.com/scl/fi/lkgmjqvz9m360dvqao3m1/slides.pdf?rlkey=vyb2qq6blshaw3f4d1gsxgg99&raw=1)]
 [[poster](https://www.dropbox.com/scl/fi/e749s1tsh7bivz44ae6ir/poster.pdf?rlkey=0jo4107gargb8xfxii4zepjcq&raw=1)]
 [[code](https://github.com/luqigroup/SVGDADMMSampler.jl)]
 [[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/SiahkoohiAghazadeGholami_2026.bib)]
