@@ -30,6 +30,7 @@ A. Siahkoohi and S. Alemohammad
 A. Siahkoohi  
 *Preprint arXiv:2606.15871*, 2026.  
 [[pdf](https://arxiv.org/abs/2606.15871)]
+[[slides](https://www.dropbox.com/scl/fi/cv82rgp5fr96twjj8586b/slides.pdf?rlkey=jmc7prr6z5xvo766qtzc1izmx&raw=1)]
 [[code](https://github.com/luqigroup/qfield)]
 [[bib](https://raw.githubusercontent.com/alisiahkoohi/alisiahkoohi.github.io/master/files/Siahkoohi_2026.bib)]
 
